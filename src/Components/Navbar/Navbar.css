@@ -1,0 +1,56 @@
+#navbar {
+    background-color: rgb(1,52,72) !important;
+}
+
+#responsive-navbar-nav {
+    background-color: rgb(1,52,72) !important;
+}
+
+#nlac {
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(236,146,15);
+    padding-right: 8em;
+}
+
+#alliance-logo {
+    height: 3em;
+    padding-right: 3%;
+}
+
+.navlink {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 0 30px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    #nlac {
+        font-size: x-large;
+        padding-right: 0 !important;
+    }
+
+    .navlinks {
+        text-align: center !important;
+        text-align: right;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #nlac {
+        font-size: large;
+        padding-right: 0 !important;
+    }
+
+    #alliance-logo {
+        height: 3em;
+    }
+
+    .navlink {
+      font-size: large;
+    }
+}

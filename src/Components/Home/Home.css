@@ -1,0 +1,76 @@
+#background {
+    background-image: url(../../img/north-vancouver.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 65em;
+}
+
+.welcome  {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 55em;
+    padding-top: 10em;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 10em;
+    color: rgb(236,146,15);
+    padding: 0 2.4em;
+    text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5)
+}
+
+.sub-heading {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: aliceblue;
+    padding-left: 8em;
+}
+
+@media only screen and (max-width: 1700px) {
+    .heading {
+        font-size: 8em;
+        padding:0 1.2em !important;
+    }
+
+    .sub-heading {
+        font-size: 3em;
+        padding-left: 3.5em;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .heading {
+        font-size: 7em;
+        padding:0 1em !important;
+    }
+
+    .sub-heading {
+        font-size: 2.5em;
+        padding-left: 3em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #background{
+        height: 45em;
+    }
+
+    .welcome {
+        padding-top: 8em;
+    }
+
+    .heading {
+        font-size: 3.3em;
+        padding: 1em 1.2em !important;
+    }
+
+    .sub-heading {
+        font-size: 1em;
+        padding-left: 4.2em;
+    }
+}
