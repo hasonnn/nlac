@@ -8,8 +8,8 @@ const Navigation = () => {
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" id="navbar">
             <Container>
-            <Navbar.Brand href="/" id="nlac" ><img id="alliance-logo" src="../../.././alliance-logo.svg" alt="alliance logo" /> New Life Alliance Church</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Brand href="/" id="nlac" ><img id="alliance-logo" src="../../.././alliance-logo.svg" alt="alliance logo" />New Life Alliance Church</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
                 <br/>

@@ -1,0 +1,102 @@
+#schedule-bg {
+    background-color: rgb(255,255,255);
+    height: 62em;
+}
+
+.schedule-content{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    line-height: normal;
+    padding: 12em 1em 0 1em;
+}
+
+#schedule-logo {
+    height: 9em;
+    padding-bottom: 1em;
+}
+
+.schedule-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 5.5em;
+    padding-bottom: 0.25em;
+    color: black;
+}
+
+.schedule-subheading {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.75em;
+    padding-bottom: 3em;
+    color: rgb(236,146,15);
+}
+
+.schedule-info {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.schedule-location {
+    text-align: left;
+    padding-right: 3em;
+    color: rgb(236,146,15);
+}
+
+.schedule-time {
+    text-align: left;
+    padding-left: 3em;
+    color: rgb(236,146,15);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#vertical-line {
+    border-left: thick solid rgb(236,146,15);
+}
+
+
+/* Mobile Viewport */
+@media only screen and (max-width: 500px) {
+    #schedule-bg {
+        height: 54em;
+    }
+
+    .schedule-content{
+        padding: 6em 1em 0 1em;
+    }
+
+    #schedule-logo {
+        height: 6em;
+    }
+    
+    .schedule-heading {
+        font-size: 2em;
+    }
+    
+    .schedule-subheading {
+        font-size: 1.25em;
+        font-weight: 600;
+    }
+
+    .schedule-info {
+        display: block;
+    }
+
+    .schedule-location {
+        padding-right: 0 !important;
+        padding-bottom: 1.5em;
+        color: rgb(236,146,15);
+    }
+    
+    .schedule-time {
+        padding-left: 0 !important;
+        padding-top: 1.5em;
+        color: rgb(236,146,15);
+    }
+
+    #vertical-line {
+        border-bottom: thick solid rgb(236,146,15);
+    }
+}

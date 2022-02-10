@@ -1,5 +1,6 @@
 #navbar {
     background-color: rgb(1,52,72) !important;
+    padding: 1em 0;
 }
 
 #responsive-navbar-nav {
@@ -40,10 +41,12 @@
     }
 }
 
+/* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #nlac {
-        font-size: large;
+        font-size: 1.2em;
         padding-right: 0 !important;
+        padding-left: 0.2em;
     }
 
     #alliance-logo {
