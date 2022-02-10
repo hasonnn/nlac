@@ -8,12 +8,12 @@
     vertical-align: middle;
     line-height: 90px;
     line-height: normal;
-    padding: 12em 1em 0 1em;
+    padding: 10em 1em 0 1em;
 }
 
 #schedule-logo {
     height: 9em;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .schedule-heading {

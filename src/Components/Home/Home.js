@@ -1,5 +1,6 @@
 import React from "react";
 import Schedule from "../Schedule/Schedule";
+import Statement from "../Statement/Statement";
 import './Home.css';
 
 const Home = () => {
@@ -13,6 +14,9 @@ const Home = () => {
             </div>
             <div>
                 <Schedule />
+            </div>
+            <div>
+                <Statement />
             </div>
         </>
     )

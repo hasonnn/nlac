@@ -1,0 +1,139 @@
+#statement-bg {
+    background-color: rgb(255,247,242);
+    height: 52em;
+}
+
+.statement-content{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    padding: 5em 1em 4em 1em;
+}
+
+/* Statement Top Lines */
+.statement-heading {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#horizontal-line {
+    width: 33em;
+    border-top: thick solid rgb(236,146,15);
+}
+
+#statement-logo {
+    height: 9em;
+    margin: 0 3em;
+}
+
+.statement-info {
+    font-family: 'Playfair Display', serif;
+    padding: 9.5em 20em;
+}
+
+/* Statement Bottom Lines */
+.statement-heading-1 {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#horizontal-line-1 {
+    width: 54em;
+    border-top: thick solid rgb(236,146,15);
+}
+
+.statement-nlac {
+    color: rgb(236,146,15);
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0 1em;
+}
+
+#horizontal-line-2 {
+    width: 20em;
+    border-top: thick solid rgb(236,146,15);
+}
+
+@media only screen and (max-width: 1500px) {
+    #horizontal-line {
+        width: 27em;
+    }
+
+    .statement-info {
+        padding: 9em 10em;
+    }
+
+    #horizontal-line-1 {
+        width: 48em;
+    }
+
+    #horizontal-line-2 {
+        width: 15em;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #horizontal-line {
+        width: 18em;
+    }
+
+    .statement-info {
+        padding: 9em 5em;
+    }
+
+    #horizontal-line-1 {
+        width: 34em;
+    }
+
+    #horizontal-line-2 {
+        width: 10em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #horizontal-line {
+        width: 12em;
+    }
+
+    .statement-info {
+        padding: 7em 5em;
+    }
+
+    #horizontal-line-1 {
+        width: 21em;
+    }
+
+    #horizontal-line-2 {
+        width: 10em;
+    }
+}
+
+/* Mobile Viewport */
+@media only screen and (max-width: 500px) {
+    #statement-bg {
+        height: 48em;
+    }
+
+    #horizontal-line {
+        display: none;
+    }
+
+    .statement-info {
+        padding: 2em 1em;
+    }
+
+    .statement-nlac {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+    #horizontal-line-1 {
+        width: 10em;
+    }
+
+    #horizontal-line-2 {
+        width: 3em;
+    }
+}
