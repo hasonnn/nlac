@@ -1,7 +1,7 @@
 import React from "react";
 import './Navbar.css';
 
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
@@ -12,10 +12,23 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                <br/>
-                <Nav.Link className="navlink" href="#features">Features</Nav.Link>
-                <Nav.Link className="navlink" href="#pricing">Pricing</Nav.Link>
-                <Nav.Link className="navlink" href="#deets">More deets</Nav.Link>
+
+                <Nav.Link className="navlink" href="#features">Church Online</Nav.Link>
+                <Nav.Link className="navlink" href="#pricing">About Us</Nav.Link>
+                <Nav.Link className="navlink" href="#deets">Staff</Nav.Link>
+                <NavDropdown title="Ministries" className="navlink-drop">
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.1">Prayer</NavDropdown.Item>
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.2">Life Groups</NavDropdown.Item>
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.3">Missions</NavDropdown.Item>
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.4">Project Hope</NavDropdown.Item>
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.4">Community Connections</NavDropdown.Item>
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.4">PAW & MMM</NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link className="navlink" href="#deets">Giving</Nav.Link>
+                <NavDropdown title="More" className="navlink-drop">
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.1">Connect</NavDropdown.Item>
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.2">Community Board</NavDropdown.Item>
+                </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
             </Container>
