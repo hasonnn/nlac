@@ -109,6 +109,20 @@
         height: 67em;
     }
 
+    .support-circle {
+        position: relative;
+        top: -70px;
+        background-color: white;
+        display: block;
+        margin: 0 auto;
+        width: 8em !important;
+        height: 8em !important;
+    }
+
+    #support-logo {
+        height: 6em;
+    }
+
     #support-img {
         display: none;
     }
@@ -119,17 +133,7 @@
         width: 22em;
         height: 38em;
     }
-
-    .support-circle {
-        position: relative;
-        background-color: white;
-        display: block;
-        margin: 0 auto;
-        width: 11em;
-        height: 11em;
-        border-radius: 50%;
-    }
-
+    
     .support-heading {
         font-size: 3.1em;
         margin-bottom: 0.3em;

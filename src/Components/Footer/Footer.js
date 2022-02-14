@@ -10,7 +10,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-content">
                     <div>
-                    <p className="footer-info">Memorial Community Recreation Centre, 123 East 23rd Street, North Vancouver, BC V7N 2L3</p>
+                    <p className="footer-info">Memorial Community Recreation Centre<br/>123 East 23rd Street, North Vancouver, BC V7N 2L3</p>
                     <p className="footer-info">Sunday Service: 10:30am</p>
                     </div>
                 </div>

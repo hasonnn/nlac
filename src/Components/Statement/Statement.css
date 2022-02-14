@@ -24,7 +24,7 @@
 
 #statement-logo {
     height: 9em;
-    margin: 0 3em;
+    margin-bottom: 1em;
 }
 
 .statement-info {
@@ -114,6 +114,10 @@
 @media only screen and (max-width: 500px) {
     #statement-bg {
         height: 48em;
+    }
+
+    #statement-logo {
+        height: 6em;
     }
 
     #horizontal-line {

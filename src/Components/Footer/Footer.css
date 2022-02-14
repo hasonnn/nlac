@@ -1,6 +1,6 @@
 #footer-bg {
     background-color: rgb(1,52,72);
-    height: 17em;
+    height: 19em;
 }
 
 .footer-content {
@@ -29,3 +29,19 @@
     font-weight: bold;
     color: rgb(236,146,15);
 }   
+
+
+/* Mobile Viewport */
+@media only screen and (max-width: 500px) {
+    #footer-bg {
+        height: 15em;
+    }
+
+    .footer-nlac {
+        font-size: large;
+    }
+    
+    .footer-info {
+        font-size: 0.75em;
+    } 
+}

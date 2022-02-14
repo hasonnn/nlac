@@ -12,8 +12,7 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-
-                <Nav.Link className="navlink" href="#features">Church Online</Nav.Link>
+                <Nav.Link className="navlink" href="/online">Church Online</Nav.Link>
                 <Nav.Link className="navlink" href="#pricing">About Us</Nav.Link>
                 <Nav.Link className="navlink" href="#deets">Staff</Nav.Link>
                 <NavDropdown title="Ministries" className="navlink-drop">
@@ -27,7 +26,7 @@ const Navigation = () => {
                 <Nav.Link className="navlink" href="#deets">Giving</Nav.Link>
                 <NavDropdown title="More" className="navlink-drop">
                     <NavDropdown.Item className="navlink-dropitem" href="#action/3.1">Connect</NavDropdown.Item>
-                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.2">Community Board</NavDropdown.Item>
+                    <NavDropdown.Item className="navlink-dropitem" href="#action/3.2">Community</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
             </Navbar.Collapse>

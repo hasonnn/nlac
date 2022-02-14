@@ -22,6 +22,7 @@
 
 .me-auto {
     justify-content: space-evenly;
+    justify-items: right;
 }
 
 .navlink {
