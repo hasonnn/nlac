@@ -56,11 +56,31 @@
     border-left: thick solid rgb(236,146,15);
 }
 
+/* iPad Viewport */
+@media only screen and (max-width: 850px) {
+    #schedule-logo {
+        height: 8em;
+    }
+
+    .schedule-heading {
+        font-size: 4.75em;
+        padding-bottom: 0.75em;
+    }
+
+    .schedule-subheading {
+        font-size: 1.5em;
+        padding-bottom: 2.75em;
+    }
+
+    .schedule-info {
+        padding: 0 1em;
+    }
+}
 
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #schedule-bg {
-        height: 54em;
+        height: 57em;
     }
 
     .schedule-content{
@@ -73,11 +93,13 @@
     
     .schedule-heading {
         font-size: 2em;
+        padding-bottom: 1.25em;
     }
     
     .schedule-subheading {
         font-size: 1.25em;
-        font-weight: 600;
+        font-weight: 500;
+        padding: 0 0.5em 1.25em 0.5em;
     }
 
     .schedule-info {

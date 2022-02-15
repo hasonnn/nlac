@@ -1,6 +1,6 @@
 #navbar {
     background-color: rgb(1,52,72) !important;
-    padding: 1em 0;
+    padding: 1.25em 0;
 }
 
 #responsive-navbar-nav {
@@ -12,7 +12,7 @@
     font-size: xx-large;
     font-weight: bold;
     color: rgb(236,146,15);
-    padding-right: 7em;
+    padding-right: 10em;
 }
 
 #alliance-logo {
@@ -47,23 +47,37 @@
     font-weight: bold;
     color: whitesmoke !important;
     background-color: rgb(1,52,72) !important;
-    padding: 0.3em 2.5em !important;
+    padding: 0.5em 2.5em !important;
 }
 
-@media only screen and (max-width: 1000px) {
+/* 3/4 Page Viewport */
+@media only screen and (max-width: 1500px) {
     #nlac {
         font-size: x-large;
-        padding-right: 0 !important;
+        padding-right: 5em;
     }
+}
 
-    .navlinks {
-        text-align: center !important;
-        text-align: right;
-        display: none;
+/* 1/2 Page Viewport */
+@media only screen and (max-width: 1100px) {
+    #nlac {
+        font-size: x-large;
+        padding-right: 2em;
     }
 
     .navlink-drop {
-        left: 0.5em;
+        margin: 0 1em;
+    }
+}
+
+/* iPad Viewport */
+@media only screen and (max-width: 850px) {
+    #nlac {
+        font-size: large;
+    }
+
+    .navlink-drop {
+        margin: 0 1em;
     }
 }
 

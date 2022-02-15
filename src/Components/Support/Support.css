@@ -1,6 +1,6 @@
 #support-bg {
     background-color: rgb(255,247,242);
-    height: 83em;
+    height: 80em;
 }
 
 #support-img {
@@ -13,7 +13,7 @@
     position: relative;
     background-color: white;
     display: block;
-    margin: -33em auto 0 auto;
+    margin: -34em auto 0 auto;
     width: 60em;
     height: 38em;
 }
@@ -65,20 +65,22 @@
     height: 60px;
 }
 
-@media only screen and (max-width: 1700px) {
+/* 3/4 Page Viewport */
+@media only screen and (max-width: 1500px) {
     #support-bg {
-        height: 75em;
+        height: 63em;
     }
 
     .support-bg-white {
         width: 55em;
-        margin: -32em auto 0 auto;
+        margin: -34em auto 0 auto;
     }
 }
 
+/* 1/2 Page Viewport */
 @media only screen and (max-width: 1100px) {
     #support-bg {
-        height: 60em;
+        height: 47em;
     }
 
     #support-img {
@@ -86,20 +88,21 @@
     }
 
     .support-bg-white {
-        margin: -30em auto 0 auto;
+        margin: -34em auto 0 auto;
         width: 50em;
     }
 }
 
-@media only screen and (max-width: 800px) {
+/* iPad Viewport */
+@media only screen and (max-width: 850px) {
     #support-bg {
-        height: 60em;
+        height: 56em;
     }
     
     .support-bg-white {
         width: 40em;
         height: 45em;;
-        margin: -17em auto 0 auto;
+        margin: -20em auto 0 auto;
     }
 }
 

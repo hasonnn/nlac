@@ -8,7 +8,8 @@
 }
 
 .welcome  {
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 55em;
@@ -20,7 +21,6 @@
     font-weight: bold;
     font-size: 9.5em;
     color: rgb(236,146,15);
-    padding: 0 1em 0 3em;
     text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5);
 }
 
@@ -29,63 +29,73 @@
     font-weight: bold;
     font-size: 3em;
     color: aliceblue;
-    padding-left: 9.5em;
 }
 
-@media only screen and (max-width: 1700px) {
+/* 3/4 Page Viewport */
+@media only screen and (max-width: 1500px) {
     .heading {
-        font-size: 8em;
-        padding: 0 2em 0 3.2em !important;
+        font-size: 9.3em;
+        color: rgb(236,146,15);
+        text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5);
     }
-
+    
     .sub-heading {
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: bold;
         font-size: 3em;
-        padding-left: 8.5em;
+        color: aliceblue;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+/* 1/2 Page Viewport */
+@media only screen and (max-width: 1100px) {
     .heading {
-        font-size: 6em;
-        padding:0 2em 0 3em !important;
+        font-size: 7em;
+        color: rgb(236,146,15);
+        text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5);
     }
-
+    
     .sub-heading {
-        font-size: 2.5em;
-        padding-left: 7.5em;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+        color: aliceblue;
     }
 }
 
-@media only screen and (max-width: 800px) {
+/* iPad Viewport */
+@media only screen and (max-width: 850px) {
     .heading {
-        font-size: 5.5em;
-        padding:0 1.75em 0 1.75em !important;
+        font-size: 5em;
+        color: rgb(236,146,15);
+        text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5);
     }
-
+    
     .sub-heading {
-        font-size: 2.5em;
-        padding-left: 4em;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+        color: aliceblue;
     }
 }
 
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #background{
-        height: 45em;
+        height: 50em;
     }
 
     .welcome {
-        padding-top: 8em;
+        padding-top: 0 !important;
+        padding-bottom: 6em;
     }
 
     .heading {
-        font-size: 3.3em;
-        padding: 1em 1.2em 0.1em 1.2em !important;
-        text-shadow: 3px 4.5px 0px rgba(87, 90, 94, 0.5);
+        font-size: 3em;
     }
-
+    
     .sub-heading {
-        font-size: 1em;
-        padding-left: 4.2em;
+        font-size: 1.5em;
     }
 }
+
