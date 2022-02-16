@@ -14,7 +14,7 @@ const Navigation = () => {
                 <Nav className="me-auto">
                 <Nav.Link className="navlink" href="/online">Church Online</Nav.Link>
                 <Nav.Link className="navlink" href="/about-us">About Us</Nav.Link>
-                <Nav.Link className="navlink" href="#deets">Staff</Nav.Link>
+                <Nav.Link className="navlink" href="/staff">Staff</Nav.Link>
                 <NavDropdown title="Ministries" className="navlink-drop">
                     <NavDropdown.Item className="navlink-dropitem" href="#action/3.1">Prayer</NavDropdown.Item>
                     <NavDropdown.Item className="navlink-dropitem" href="#action/3.2">Life Groups</NavDropdown.Item>

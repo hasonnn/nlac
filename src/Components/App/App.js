@@ -8,6 +8,7 @@ import Home from '../Home/Home';
 import Footer from '../Footer/Footer';
 import Online from '../Online/Online';
 import About from '../AboutUs/AboutUs';
+import Staff from '../Staff/Staff';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/" index element={ <Home /> } />
             <Route path="/online" element={ <Online /> } />
             <Route path="/about-us" element={ <About /> } />
+            <Route path="/staff" element={ <Staff /> } />
           </Routes> 
           <Footer />
         </Router>
