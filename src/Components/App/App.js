@@ -9,6 +9,7 @@ import Footer from '../Footer/Footer';
 import Online from '../Online/Online';
 import About from '../AboutUs/AboutUs';
 import Staff from '../Staff/Staff';
+import Prayer from '../Ministries/Prayer/Prayer';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
             <Route path="/online" element={ <Online /> } />
             <Route path="/about-us" element={ <About /> } />
             <Route path="/staff" element={ <Staff /> } />
+            <Route path="/ministry/prayer" element={ <Prayer /> } />
           </Routes> 
           <Footer />
         </Router>
