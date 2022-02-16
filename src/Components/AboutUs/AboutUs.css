@@ -55,9 +55,8 @@
 
 .nlac-story h4 {
     margin: 1.5em 0 1em 0;
+    color: rgb(236,146,15);
 }
-
-
 
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
