@@ -1,13 +1,13 @@
 #online-bg {
     background-color: rgb(255,247,242);
-    height: 105em;
+    height: 90em;
 }
 
 .online-content{
     text-align: center;
     vertical-align: middle;
     line-height: 90px;
-    padding: 9em 1em 4em 1em;
+    padding: 9em 1em 0 1em;
 }
 
 #online-logo {
@@ -18,20 +18,20 @@
 .online-heading {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 5.5em;
-    padding-bottom: 1em;
-    color: black;
+    font-size: 5em;
+    padding-bottom: 0.5em;
+    color: rgb(11,64,58)
 }
 
 .online-subheading {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.5em;
     line-height: 2.5em;
-    color: black;
+    color: rgb(11,64,58)
 }
 
 a {
-    color: black;
+    color: rgb(11,64,58)
 }
 a:hover {
     color: rgb(236,146,15);
@@ -39,6 +39,7 @@ a:hover {
 
 .online-covid {
     text-align: center;
+    color: rgb(11,64,58)
 }   
 
 .online-list {
@@ -47,6 +48,7 @@ a:hover {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 600;
     padding: 0 1em;
+    color: rgb(11,64,58)
 }
 
 ol li {
@@ -61,7 +63,7 @@ ol li {
 
     .online-content{
         line-height: 90px;
-        padding: 7em 1em 4em 1em;
+        padding: 7em 1em 0 1em;
     }
 
     .online-heading {
@@ -78,11 +80,11 @@ ol li {
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #online-bg {
-        height: 95em;
+        height: 92em;
     }
 
     .online-content{
-        padding: 7em 1em 0 1em;
+        padding: 5em 1em 0 1em;
     }
 
     #online-logo {

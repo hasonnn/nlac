@@ -7,6 +7,7 @@ import Navigation from '../Navbar/Navbar';
 import Home from '../Home/Home';
 import Footer from '../Footer/Footer';
 import Online from '../Online/Online';
+import About from '../AboutUs/AboutUs';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Routes>
             <Route path="/" index element={ <Home /> } />
             <Route path="/online" element={ <Online /> } />
+            <Route path="/about-us" element={ <About /> } />
           </Routes> 
           <Footer />
         </Router>

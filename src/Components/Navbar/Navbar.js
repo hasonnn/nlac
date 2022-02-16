@@ -7,13 +7,13 @@ const Navigation = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" id="navbar">
-            <Container>
+            <Container className="nav-container">
             <Navbar.Brand href="/" id="nlac" ><img id="alliance-logo" src="../../.././alliance-logo.svg" alt="alliance logo" />New Life Alliance Church</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
                 <Nav.Link className="navlink" href="/online">Church Online</Nav.Link>
-                <Nav.Link className="navlink" href="#pricing">About Us</Nav.Link>
+                <Nav.Link className="navlink" href="/about-us">About Us</Nav.Link>
                 <Nav.Link className="navlink" href="#deets">Staff</Nav.Link>
                 <NavDropdown title="Ministries" className="navlink-drop">
                     <NavDropdown.Item className="navlink-dropitem" href="#action/3.1">Prayer</NavDropdown.Item>

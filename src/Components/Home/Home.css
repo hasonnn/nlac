@@ -35,15 +35,10 @@
 @media only screen and (max-width: 1500px) {
     .heading {
         font-size: 9.3em;
-        color: rgb(236,146,15);
-        text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5);
     }
-    
+
     .sub-heading {
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: bold;
-        font-size: 3em;
-        color: aliceblue;
+        font-size: 2.8em;
     }
 }
 
@@ -51,15 +46,9 @@
 @media only screen and (max-width: 1100px) {
     .heading {
         font-size: 7em;
-        color: rgb(236,146,15);
-        text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5);
     }
-    
     .sub-heading {
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: bold;
-        font-size: 3em;
-        color: aliceblue;
+        font-size: 2.6em;
     }
 }
 
@@ -67,15 +56,10 @@
 @media only screen and (max-width: 850px) {
     .heading {
         font-size: 5em;
-        color: rgb(236,146,15);
-        text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5);
     }
-    
+
     .sub-heading {
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: bold;
-        font-size: 3em;
-        color: aliceblue;
+        font-size: 2em;
     }
 }
 
