@@ -3,8 +3,8 @@ import './Support.css';
 
 import { Button} from 'react-bootstrap';
 
-import supportimg from '../../image/lionsgate.jpg';
-import supportsvg from '../../image/giving.svg';
+import supportimg from '../../../image/lionsgate.jpg';
+import supportsvg from '../../../image/giving.svg';
 
 const Support = () => {
     return (

@@ -1,7 +1,7 @@
 import React from "react";
 import './Statement.css';
 
-import statement from '../../image/statement.svg';
+import statement from '../../../image/statement.svg';
 
 const Statement = () => {
     return (

@@ -1,7 +1,7 @@
 import React from "react";
 import './Schedule.css';
 
-import schedule from '../../image/schedule.svg';
+import schedule from '../../../image/schedule.svg';
 
 const Schedule = () => {
     return (
