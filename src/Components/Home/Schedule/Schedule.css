@@ -1,6 +1,7 @@
 #schedule-bg {
     background-color: rgb(255,255,255);
     height: 62em;
+    color: rgb(11,64,58);
 }
 
 .schedule-content{
@@ -21,7 +22,6 @@
     font-weight: bold;
     font-size: 5.5em;
     padding-bottom: 0.25em;
-    color: rgb(11,64,58)
 }
 
 .schedule-subheading {

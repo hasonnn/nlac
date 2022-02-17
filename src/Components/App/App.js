@@ -10,6 +10,7 @@ import Online from '../Online/Online';
 import About from '../AboutUs/AboutUs';
 import Staff from '../Staff/Staff';
 import Prayer from '../Ministries/Prayer/Prayer';
+import LifeGroup from '../Ministries/LifeGroup/LifeGroup';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path="/about-us" element={ <About /> } />
             <Route path="/staff" element={ <Staff /> } />
             <Route path="/ministry/prayer" element={ <Prayer /> } />
+            <Route path="/ministry/life-group" element={ <LifeGroup /> } />
           </Routes> 
           <Footer />
         </Router>

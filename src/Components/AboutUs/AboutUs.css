@@ -1,6 +1,7 @@
 #about-bg {
     background-color: rgb(255,247,242);
     height: 180em;
+    color: rgb(11,64,58);
 }
 
 .about-content{
@@ -19,7 +20,6 @@
     font-weight: bold;
     font-size: 5em;
     padding-bottom: 1em;
-    color: rgb(11,64,58)
 }
 
 .about-VVP {
@@ -41,7 +41,6 @@
 .about-subinfo {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: x-large;
-    color: rgb(11,64,58)
 }
 
 .nlac-story {
@@ -49,7 +48,6 @@
 }
 
 .nlac-story p {
-    color: rgb(11,64,58);
     font-size: 1.25em;
 }
 
