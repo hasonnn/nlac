@@ -21,7 +21,7 @@ const Schedule = () => {
                         <div className="schedule-time">
                             <h4>Time</h4>
                             <h2 className="bold">Sunday Service - 10:30am</h2> <br/>
-                            <h2 className="bold"><u>Prayer Meeting<br/>every Thursday - 7:30pm</u></h2>
+                            <h2 className="bold"><a href="/ministry/prayer"><u>Prayer Meeting<br/>every Thursday - 7:30pm</u></a></h2>
                         </div>
                     </div>
                 </div>

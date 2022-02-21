@@ -29,8 +29,11 @@
     line-height: 2.5em;
 }
 
-a:hover {
-    color: rgb(236,146,15) !important;
+p a {
+    color: rgb(236,146,15);
+}
+p a:hover {
+    color: rgb(11,64,58) !important;
 }
 
 .online-covid {

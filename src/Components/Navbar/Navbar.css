@@ -16,7 +16,7 @@
     font-size: xx-large;
     font-weight: bold;
     color: rgb(236,146,15);
-    padding-right: 10em;
+    padding-right: 8em;
 }
 
 #alliance-logo {
@@ -54,11 +54,15 @@
     padding: 0.5em 2.5em !important;
 }
 
+a :hover {
+    color: rgb(236,146,15) !important;
+}
+
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
     #nlac {
         font-size: x-large;
-        padding-right: 5em;
+        padding-right: 2em;
     }
 }
 
