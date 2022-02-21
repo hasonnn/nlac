@@ -1,0 +1,149 @@
+#pawmmm-bg {
+    background-color: rgb(255,247,242);
+    height: 90em;
+    color: rgb(11,64,58);
+}
+
+.pawmmm-content{
+    text-align: center;
+    vertical-align: middle;
+    padding: 9em 15% 0 15%;
+}
+
+.pawmmm-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 5em;
+    padding-bottom: 1em;
+}
+
+.pawmmm-statement {
+    font-size: 1.6em;
+    margin: 0 10%;
+    margin-bottom: 3em;
+}
+
+.pawmmm-group {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: 500;
+    width: 80%;
+    padding: 0 1em;
+    margin: 1.5em 0 2em 0;
+}
+
+.pawmmm-group h4 {
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+.pawmmm-group ul li {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.pawmmm-group ol li {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.pawmmm-group ol {
+    margin-bottom: 2em;
+}
+
+.pawmmm-group ul {
+    margin-bottom: 3em;
+}
+
+.pawmmm-info {
+    font-size: 1.5em;
+    margin: 0 10%;
+}
+
+/* 3/4 Page Viewport */
+@media only screen and (max-width: 1500px) {
+    #pawmmm-bg {
+        height: 100em;
+    }
+
+    .pawmmm-content{
+        padding: 9em 10% 0 10%;
+    }
+}
+
+/* 1/2 Page Viewport */
+@media only screen and (max-width: 1100px) {
+    #pawmmm-bg {
+        height: 105em;
+    }
+
+    .pawmmm-content{
+        padding: 9em 3% 0 3%;
+    }
+}
+
+/* iPad Viewport */
+@media only screen and (max-width: 820px) {
+    #pawmmm-bg {
+        height: 120em;
+    }
+
+    .pawmmm-content{
+        padding: 9em 1em 0 1em;
+    }
+
+    .pawmmm-statement {
+        margin: 0 0;
+        margin-bottom: 3em;
+    }
+}
+
+/* Mobile Viewport */
+@media only screen and (max-width: 500px) {
+    #pawmmm-bg {
+        height: 120em;
+    }
+
+    .pawmmm-content{
+        padding: 5em 1em;
+    }
+    
+    .pawmmm-heading {
+        font-size: 2.75em;
+    }
+
+    .pawmmm-statement {
+        font-size: 1.25em;
+        margin: 0 0;
+        margin-bottom: 2em;
+    }
+
+    .pawmmm-group {
+        font-size: 1.1em;
+        padding: 0 0;
+    }
+
+    .pawmmm-group ol {
+        margin-bottom: 2em;
+    }
+    
+    .pawmmm-group ul {
+        margin-bottom: 0em;
+    }
+
+    .pawmmm-group ul li {
+        margin-bottom: 1em;
+    }
+    
+    .pawmmm-group ol li {
+        margin-bottom: 1em;
+    }
+
+    .pawmmm-info {
+        font-size: 1.25em;
+        margin: 0 0;
+        margin-bottom: 1.5em;
+    }
+}
