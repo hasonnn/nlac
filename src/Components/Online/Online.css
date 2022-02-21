@@ -48,7 +48,7 @@ p a:hover {
     padding: 0 1em;
 }
 
-ol li {
+.online-list ol li {
     font-size: 1.25em;
 }
 
