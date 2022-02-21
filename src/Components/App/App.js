@@ -12,6 +12,7 @@ import Staff from '../Staff/Staff';
 import Prayer from '../Ministries/Prayer/Prayer';
 import LifeGroup from '../Ministries/LifeGroup/LifeGroup';
 import Mission from '../Ministries/Mission/Mission';
+import ProjectHope from '../Ministries/ProjectHope/ProjectHope';
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
             <Route path="/ministry/prayer" element={ <Prayer /> } />
             <Route path="/ministry/life-group" element={ <LifeGroup /> } />
             <Route path="/ministry/missions" element={ <Mission /> } />
+            <Route path="/ministry/project-hope" element={ <ProjectHope /> } />
           </Routes> 
           <Footer />
         </Router>
