@@ -23,7 +23,7 @@ const Navigation = () => {
                     <NavDropdown.Item className="navlink-dropitem" href="/ministry/community-connections">Community Connections</NavDropdown.Item>
                     <NavDropdown.Item className="navlink-dropitem" href="/ministry/paw-mmm">PAW & MMM</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link className="navlink" href="#deets">Giving</Nav.Link>
+                <Nav.Link className="navlink" href="/giving">Giving</Nav.Link>
                 <NavDropdown title="More" className="navlink-drop">
                     <NavDropdown.Item className="navlink-dropitem" href="#action/3.1">Connect</NavDropdown.Item>
                     <NavDropdown.Item className="navlink-dropitem" href="#action/3.2">Community</NavDropdown.Item>

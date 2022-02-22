@@ -1,0 +1,101 @@
+#giving-bg {
+    background-color: rgb(255,247,242);
+    height: 105em;
+    color: rgb(11,64,58);
+}
+
+.giving-content{
+    text-align: center;
+    vertical-align: middle;
+    padding: 9em 15% 0 15%;
+}
+
+#giving-logo {
+    height: 9em;
+    margin-bottom: 1.5em;
+}
+
+.giving-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 5em;
+    padding-bottom: 1em;
+}
+
+.interac-container {
+    display: inline-flex;
+    text-align: left;
+    margin-bottom: 6em;
+}
+
+.giving-subheading {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.giving-content h2 {
+    margin-bottom: 1.25em;
+}
+.giving-content p {
+    margin-bottom: 1.25em;
+}
+
+/* 3/4 Page Viewport */
+@media only screen and (max-width: 1500px) {
+    #giving-bg {
+        height: 125em;
+    }
+}
+
+/* 1/2 Page Viewport */
+@media only screen and (max-width: 1100px) {
+    #giving-bg {
+        height: 160em;
+    }
+}
+
+/* iPad Viewport */
+@media only screen and (max-width: 820px) {
+    #giving-bg {
+        height: 150em;
+    }
+
+    .giving-content{
+        text-align: center;
+        vertical-align: middle;
+        padding: 9em 5% 0 5%;
+    }
+}
+
+/* Mobile Viewport */
+@media only screen and (max-width: 500px) {
+    #giving-bg {
+        height: 150em;
+    }
+
+    .giving-content{
+        padding: 5em 1em 0 1em;
+    }
+
+    #giving-logo {
+        height: 6em;
+    }
+    
+    .giving-heading {
+        font-size: 2.75em;
+    }
+
+    #interac {
+        height: 7em;
+        margin-right: 1em;
+    }
+
+    .interac-container {
+        margin-bottom: 4em;
+    }
+    
+    .giving-subheading {
+        font-size: 1.25em;
+    }
+}
