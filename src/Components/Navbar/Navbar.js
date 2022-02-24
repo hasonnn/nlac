@@ -26,7 +26,7 @@ const Navigation = () => {
                             <Nav.Link className="navlink" href="/giving">Giving</Nav.Link>
                             <NavDropdown title="More" className="navlink-drop">
                                 <NavDropdown.Item className="navlink-dropitem" href="/connect">Connect</NavDropdown.Item>
-                                <NavDropdown.Item className="navlink-dropitem" href="https://www.dropbox.com/sh/ox4hckiogvnclrt/AABMP_fj9WNhdw30m7vu5vH5a?dl=0&fbclid=IwAR3ePPuFHEMhfX1OaFKjoJm_BRphWiAX5vID3Qx3B_F1VWMlLlO_xOh5SEE" target="_blank" rel="noreferrer">Community</NavDropdown.Item>
+                                <NavDropdown.Item className="navlink-dropitem" href="https://www.dropbox.com/sh/ox4hckiogvnclrt/AABMP_fj9WNhdw30m7vu5vH5a?dl=0&fbclid=IwAR3ePPuFHEMhfX1OaFKjoJm_BRphWiAX5vID3Qx3B_F1VWMlLlO_xOh5SEE" target="_blank" rel="noreferrer">Community Board</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
