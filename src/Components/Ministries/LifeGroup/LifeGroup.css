@@ -68,6 +68,12 @@
     margin-bottom: 1em;
 }
 
+.lg-contact {
+    font-size: 25px;
+    margin-bottom: 1em;
+    line-height: 1.25em;
+}
+
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
     #lg-bg {
@@ -114,7 +120,7 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #lg-bg {
-        height: 225em;
+        height: 215em;
     }
 
     .lg-content{
@@ -150,5 +156,9 @@
 
     ul li {
         font-size: 1.4em;
+    }
+
+    .lg-contact {
+        font-size: 20px;
     }
 }

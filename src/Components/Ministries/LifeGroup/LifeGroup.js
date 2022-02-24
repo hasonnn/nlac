@@ -38,8 +38,8 @@ const LifeGroup = () => {
                             <p><b>2021 Goal</b> - Continue and finish "The Purpose Driven Life" by Rick Warren.</p>
                         </div>
                     </div>
-                    <p className="lg-info">For more information about our NLAC Life Groups or if you'd like to join,</p>
-                    <p className="lg-info">please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
+                    <p className="lg-contact">For more information about our NLAC Life Groups or if you'd like to join,</p>
+                    <p className="lg-contact">please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                 </div>
             </div>
         </>

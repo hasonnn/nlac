@@ -1,6 +1,6 @@
 #ph-bg {
     background-color: rgb(255,247,242);
-    height: 150em;
+    height: 160em;
     color: rgb(11,64,58);
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -56,8 +56,18 @@
     margin-bottom: 0.75em;
 }
 
+.ph-contact {
+    font-size: 25px;
+    margin-bottom: 1em;
+    line-height: 1.25em;
+}
+
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
+    #ph-bg {
+        height: 170em;
+    }
+
     .ph-group {
         padding: 0 15%;
     }
@@ -66,7 +76,7 @@
 /* 1/2 Page Viewport */
 @media only screen and (max-width: 1100px) {
     #ph-bg {
-        height: 155em;
+        height: 175em;
     }
 
     .ph-group {
@@ -77,7 +87,7 @@
 /* iPad Viewport */
 @media only screen and (max-width: 820px) {
     #ph-bg {
-        height: 165em;
+        height: 188em;
     }
 
     .ph-group {
@@ -88,7 +98,7 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #ph-bg {
-        height: 215em;
+        height: 185em;
     }
 
     .ph-content{
@@ -124,6 +134,10 @@
     }
 
     ul li {
-        font-size: 1.4em;
+        font-size: 1.25em !important;
+    }
+
+    .ph-contact {
+        font-size: 20px;
     }
 }

@@ -16,6 +16,7 @@ import ProjectHope from '../Ministries/ProjectHope/ProjectHope';
 import CommunityConnections from '../Ministries/CommunityConnections/CommunityConnections';
 import PAWMMM from '../Ministries/PAW-MMM/PAW-MMM';
 import Giving from '../Giving/Giving';
+import Connect from '../Connect/Connect';
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
             <Route path="/ministry/community-connections" element={ <CommunityConnections /> } />
             <Route path="/ministry/paw-mmm" element={ <PAWMMM /> } />
             <Route path="/giving" element={ <Giving /> } />
+            <Route path="/connect" element={ <Connect /> } />
           </Routes> 
           <Footer />
         </Router>

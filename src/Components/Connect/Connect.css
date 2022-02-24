@@ -1,0 +1,148 @@
+#connect-bg {
+    background-color: whitesmoke;
+    height: 65em;
+    color: rgb(11,64,58);
+}
+
+.connect-content{
+    text-align: center;
+    padding: 9em 1em 4em 1em;
+}
+
+#connect-logo {
+    height: 9em;
+    margin-bottom: 1.5em;
+}
+
+.connect-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 5em;
+    color: lightgray;
+}
+
+.connect-subheading {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2em;
+    margin-bottom: 2.5em;
+    color: lightgray;
+}
+
+.connect-container {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.connect-item1 {
+    width: 30em;
+    padding: 5em 1em;
+    background-color: lightgray;
+}
+
+.connect-item2 {
+    width: 30em;
+    padding: 5em 1em;
+    color: rgb(236,146,15);
+    background-color: rgb(229,78,76);
+}
+
+.connect-item3 {
+    width: 30em;
+    padding: 5em 1em;
+    color: rgb(236,146,15);
+    background-color: rgb(59,111,152);
+}
+
+#connect-icon {
+    height: 6em;
+    margin-bottom: 3em;
+}
+
+.connect-subinfo {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: x-large;
+}
+
+.connect-container a {
+    text-decoration: none;
+}
+
+/* 1/2 Page Viewport */
+@media only screen and (max-width: 1100px) {
+    #connect-bg {
+        height: 105em;
+    }
+
+    .connect-heading {
+        font-size: 4.5em;
+    }
+
+    .connect-container {
+        display: inline-block;
+        padding: 0 5em;
+    }
+}
+
+/* iPad Viewport */
+@media only screen and (max-width: 820px) {
+    .connect-container {
+        padding: 0 0;
+    }
+}
+
+/* Mobile Viewport */
+@media only screen and (max-width: 500px) {
+    #connect-bg {
+        height: 85em;
+    }
+
+    .connect-content{
+        padding: 5em 1em 0 1em;
+    }
+
+    #connect-logo {
+        height: 6em;
+    }
+    
+    .connect-heading {
+        font-size: 2.75em;
+    }
+
+    .connect-subheading {
+        font-size: 1.5em;
+    }
+
+    .connect-container {
+        width: auto !important;
+    }
+
+    .connect-item1 {
+        width: 20em;
+        padding: 5em 1em;
+
+    }
+    
+    .connect-item2 {
+        width: 20em;
+        padding: 5em 1em;
+    }
+    
+    .connect-item3 {
+        width: 20em;
+        padding: 5em 1em;
+    }
+
+    #connect-icon {
+        height: 4em;
+        margin-bottom: 3em;
+    }
+    
+    .connect-subinfo {
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: large;
+        font-weight: 600;
+    }
+}
+

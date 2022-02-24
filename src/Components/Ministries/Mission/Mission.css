@@ -69,6 +69,12 @@
     height: 96%;
 }
 
+.mission-contact {
+    font-size: 25px;
+    margin-bottom: 1em;
+    line-height: 1.25em;
+}
+
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
     #mission-bg {
@@ -132,5 +138,9 @@
 
     ul li {
         font-size: 1.4em;
+    }
+
+    .lg-contact {
+        font-size: 20px;
     }
 }

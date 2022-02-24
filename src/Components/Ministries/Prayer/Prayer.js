@@ -20,8 +20,8 @@ const Prayer = () => {
                         </ul>
                     </div>
                     <p className="prayer-info">Zoom links are provided via private Facebook groups.</p>
-                    <p className="prayer-info">For more information about prayer meeting, to join a prayer group, or submit prayer requests,</p>
-                    <p className="prayer-info">please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
+                    <p className="prayer-contact">For more information about prayer meeting, to join a prayer group, or submit prayer requests,</p>
+                    <p className="prayer-contact">please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                 </div>
             </div>
         </>
