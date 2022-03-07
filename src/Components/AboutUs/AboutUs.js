@@ -12,20 +12,20 @@ const About = () => {
                     <h1 className="about-heading">New Life Alliance Church</h1> 
                     <div className="about-VVP">
                         <div className="about-item">
-                            <h1 className="about-subheading">Our Vision</h1>
+                            <h3 className="about-subheading">Our Vision</h3>
                             <p className="about-subinfo">O God, with all our hearts we long to be a church transformed by Christ, transforming Metro Vancouver, Canada, and the world.</p>
                         </div>
                         <div className="about-item">
-                            <h1 className="about-subheading">Our Values</h1>
+                            <h3 className="about-subheading">Our Values</h3>
                             <p className="about-subinfo">Christ-Centered<br/>Spirit-Empowered<br/>Mission-Focused</p>
                         </div>
                         <div className="about-item">
-                            <h1 className="about-subheading">Our Purpose</h1>
+                            <h3 className="about-subheading">Our Purpose</h3>
                             <p className="about-subinfo">We exist to glorify God by being intentional followers of Jesus Christ through leading people to His saving grace, helping them grow in maturity, training them to use their gifts for the service, and sending them to go to all nations.</p>
                         </div>
                     </div>
                     <div className="nlac-story">
-                        <h1 className="about-heading">The NLAC Story</h1>
+                        <h2 className="about-heading">The NLAC Story</h2>
                         <p><i>“He remembers His covenant forever, the promise He made, for a thousand generations.”<br/>(1 Chronicles 16:15, NIV)</i></p> <br/><br/>
                         <p>New Life Alliance Church is located in the beautiful city of North Vancouver, British Columbia. Since its inception, the church has rented the public recreation facilities in different locations across North Vancouver for worship gatherings, training, discipleship classes, leadership meetings and other events. The church was founded by first-generation Filipinos. Over the years, different nationalities became members of the church community including Iranian, African, Chinese, Belizean and Chilean.</p>
                         <h4>The Years of Sacrifice</h4>

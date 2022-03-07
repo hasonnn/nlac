@@ -11,7 +11,7 @@ const Home = () => {
             <div id="background">
                 <div className="welcome">
                     <h1 className="heading">Welcome to<br/>New Life<br/>Alliance Church</h1>
-                    <p className="sub-heading">a place to belong</p>
+                    <p className="sub-heading">a place to belong</p> 
                 </div>
             </div>
             <div>

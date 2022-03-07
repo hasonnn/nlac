@@ -59,7 +59,7 @@
     color: rgb(11,64,58) !important;
 }
 
-#vertical-line {
+.vertical-line {
     border-left: thick solid rgb(236,146,15);
 }
 

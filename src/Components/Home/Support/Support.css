@@ -62,8 +62,9 @@
     font-family: 'Merriweather Sans', sans-serif !important;
     font-weight: bold;
     font-size: 1.3em;
+    padding-top: 0.5em;
     width: 175px;
-    height: 60px;
+    height: 55px;
 }
 
 /* 3/4 Page Viewport */

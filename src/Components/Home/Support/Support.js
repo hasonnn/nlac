@@ -21,7 +21,7 @@ const Support = () => {
                         <div className="support-info">
                             <h2 className="support-heading">Support Our Church</h2>
                             <p className="support-subheading">Find out what the Bible says about<br/>Tithing & Giving<br/>and how you can donate below</p>
-                            <Button id="donate-button" variant="warning">Donate</Button>{' '}
+                            <Button id="donate-button" href="/giving">Donate</Button>
                         </div>
                     </div>
                 </div>
