@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './AboutUs.css';
+
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 import about from '../../image/about-us.svg';
 
 const About = () => {
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    }, [])
     return (
         <>
             <div id="about-bg">
                 <div className="about-content">
                     <img id="about-logo" src={about} alt="church about logo" />
                     <h1 className="about-heading">New Life Alliance Church</h1> 
-                    <div className="about-VVP">
+                    <div data-aos="fade-up" className="about-VVP">
                         <div className="about-item">
                             <h3 className="about-subheading">Our Vision</h3>
                             <p className="about-subinfo">O God, with all our hearts we long to be a church transformed by Christ, transforming Metro Vancouver, Canada, and the world.</p>

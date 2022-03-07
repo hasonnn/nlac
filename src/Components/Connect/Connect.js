@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Connect.css';
+
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 import connect from '../../image/connect.svg';
 import email from '../../image/email.svg';
@@ -7,12 +10,18 @@ import mobile from '../../image/mobile.svg';
 import facebook from '../../image/facebook.svg';
 
 const Connect = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 1000,
+            disable: 'mobile'
+        });
+    }, [])
     return (
         <>
             <div id="connect-bg">
                 <div className="connect-content">
                     <img id="connect-logo" src={connect} alt="church connect logo" />
-                    <h1 className="connect-heading">GET IN TOUCH</h1> 
+                    <h1 data-aos="zoom-in" className="connect-heading">GET IN TOUCH</h1> 
                     <p className="connect-subheading"><i>We love to hear from you</i></p>
                     <div className="connect-container">
                         <div className="connect-item1">

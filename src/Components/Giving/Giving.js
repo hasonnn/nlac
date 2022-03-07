@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Giving.css';
+
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 import giving from '../../image/giving.svg';
 import interac from '../../image/interac.svg';
 
 const Giving = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 1000,
+            disable: 'mobile'
+        });
+    }, [])
     return (
         <>
             <div id="giving-bg">
@@ -12,7 +21,7 @@ const Giving = () => {
                     <img id="giving-logo" src={giving} alt="church giving logo" />
                     <h1 className="giving-heading">Tithes & Offerings</h1> 
                     <div className="interac-container">
-                        <img id="interac" src={interac} alt="interac logo" />
+                        <img data-aos="flip-left" id="interac" src={interac} alt="interac logo" />
                         <p className="giving-subheading">To support New Life Alliance Church<br/>E-transfer: nlacgiving@yahoo.com<br/>Name: NLACgiving<br/>Note: your name, area of contribution (example: building fund, missions, etc)</p>
                     </div>
                     <h2>What The Bible Says About Tithing & Giving</h2> 
