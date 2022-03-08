@@ -33,18 +33,19 @@
 
 .schedule-info {
     display: inline-flex;
-    justify-content: space-evenly;
 }
 
 .schedule-location {
     text-align: left;
     padding-right: 3em;
+    width: 50%;
     color: rgb(236,146,15);
 }
 
 .schedule-time {
     text-align: left;
     padding-left: 3em;
+    width: 50%;
     color: rgb(236,146,15);
 }
 

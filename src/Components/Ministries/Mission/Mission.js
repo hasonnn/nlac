@@ -22,7 +22,7 @@ const Mission = () => {
                         </div>
                     </div>
                     <p className="mission-contact">If you are interested in learning more or joining the ministry,</p>
-                    <p className="mission-contact">please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
+                    <p className="mission-contact">Please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                     <div className="space"></div>
                     <div className="mission-group">
                         <div className="mission-statement">

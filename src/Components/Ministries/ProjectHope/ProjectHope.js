@@ -61,7 +61,7 @@ const ProjectHope = () => {
                         </div>
                     </div>
                     <p className="ph-contact">For more information about Project Hope and what/how to donate,</p>
-                    <p className="ph-contact">please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
+                    <p className="ph-contact">Please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                 </div>
             </div>
         </>

@@ -39,7 +39,7 @@ const LifeGroup = () => {
                         </div>
                     </div>
                     <p className="lg-contact">For more information about our NLAC Life Groups or if you'd like to join,</p>
-                    <p className="lg-contact">please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
+                    <p className="lg-contact">Please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                 </div>
             </div>
         </>

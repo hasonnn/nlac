@@ -22,7 +22,7 @@ const Connect = () => {
                 <div className="connect-content">
                     <img id="connect-logo" src={connect} alt="church connect logo" />
                     <h1 data-aos="zoom-in" className="connect-heading">GET IN TOUCH</h1> 
-                    <p className="connect-subheading"><i>We love to hear from you</i></p>
+                    <p className="connect-subheading"><i>We'd love to hear from you</i></p>
                     <div className="connect-container">
                         <div className="connect-item1">
                             <img id="connect-icon" src={email} alt="email logo" />

@@ -25,7 +25,7 @@ const CommunityConnections = () => {
                     </div>
                     <p className="cc-statement">We love to share knowledge and important information that would benefit the community members through workshops. Two of the previous workshops NLAC offered is the Financial Management workshop where we shared practical ways to save money, and the Successful Career Strategies targeted for individuals who suffered job loss due to the COVID-19 pandemic.  </p>
                     <p className="cc-info">If you have suggestions on how New Life Alliance can help assist the community or if you want to know about our workshops,</p>
-                    <p className="cc-info">please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
+                    <p className="cc-info">Please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                 </div>
             </div>
         </>
