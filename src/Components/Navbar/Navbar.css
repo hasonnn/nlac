@@ -1,6 +1,6 @@
 #navbar {
     background-color: rgb(1,52,72) !important;
-    padding: 1.25em 0;
+    padding: 12px 0;
 }
 
 #responsive-navbar-nav {
@@ -9,20 +9,15 @@
 
 #nlac {
     font-family: 'Playfair Display', serif;
-    font-size: xx-large;
+    font-size: 2rem;
     font-weight: bold;
     margin-right: 15%;
     color: rgb(236,146,15);
 }
 
 #alliance-logo {
-    height: 3em;
+    height: 100px;
     padding-right: 0.5em;
-}
-
-.me-auto {
-    width: 45em;
-    justify-content: space-evenly;
 }
 
 .navlink {

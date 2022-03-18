@@ -12,7 +12,7 @@ const Navigation = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link className="navlink" href="/online">Church Online</Nav.Link>
+                            <Nav.Link className="navlink" href="/online.html">Church Online</Nav.Link>
                             <Nav.Link className="navlink" href="/about-us">About Us</Nav.Link>
                             <Nav.Link className="navlink" href="/staff">Staff</Nav.Link>
                             <NavDropdown title="Ministries" className="navlink-drop">
