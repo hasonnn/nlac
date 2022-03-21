@@ -1,6 +1,10 @@
 #navbar {
     background-color: rgb(1,52,72) !important;
-    padding: 12px 0;
+    padding: 10px 0;
+}
+
+#nav-container {
+    justify-content: space-evenly;
 }
 
 #responsive-navbar-nav {
@@ -11,38 +15,37 @@
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: bold;
-    margin-right: 15%;
     color: rgb(236,146,15);
 }
 
 #alliance-logo {
-    height: 100px;
-    padding-right: 0.5em;
+    height: 65px;
+    padding-right: 10px;
 }
 
 .navlink {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: bold;
     color: whitesmoke;
-    margin: 0 1em;
+    margin: 0 5px;
 }
 
 .navlink-drop {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: bold;
     color: whitesmoke;
-    margin: 0 0.5em;
+    margin: 0 5px;
 }
 
 .navlink-dropitem {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 1rem;
     font-weight: bold;
     color: whitesmoke !important;
     background-color: rgb(1,52,72) !important;
-    padding: 0.5em 2.5em !important;
+    padding: 0.5rem 2.5rem !important;
 }
 
 a :hover {
