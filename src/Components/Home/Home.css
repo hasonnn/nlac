@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 65em;
+    height: 1040px;
     opacity: 0.95;
 }
 
@@ -12,14 +12,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 55em;
-    padding-top: 10em;
+    height: 880px;
+    padding-top: 160px;
 }
 
 .heading {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 9.5em;
+    font-size: 140px;
     color: rgb(236,146,15);
     text-shadow: 5px 7px 0px rgba(87, 90, 94, 0.5);
 }
@@ -27,59 +27,52 @@
 .sub-heading {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 48px;
     color: aliceblue;
 }
 
-/* 3/4 Page Viewport */
-@media only screen and (max-width: 1500px) {
-    .heading {
-        font-size: 9.3em;
-    }
-
-    .sub-heading {
-        font-size: 2.8em;
-    }
+/* Desktops, large screens Viewport */
+@media only screen and (max-width: 1200px) {
 }
 
-/* 1/2 Page Viewport */
-@media only screen and (max-width: 1100px) {
+/* Small screens, laptops Viewport */
+@media only screen and (max-width: 1024px) {
     .heading {
-        font-size: 7em;
+        font-size: 108px;
     }
     .sub-heading {
-        font-size: 2.6em;
+        font-size: 45px;
     }
 }
 
 /* iPad Viewport */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
     .heading {
-        font-size: 5em;
+        font-size: 90px;
     }
 
     .sub-heading {
-        font-size: 2em;
+        font-size: 35px;
     }
 }
 
 /* Mobile Viewport */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     #background{
-        height: 50em;
+        height: 800px;
     }
 
     .welcome {
         padding-top: 0 !important;
-        padding-bottom: 6em;
+        padding-bottom: 96px;
     }
 
     .heading {
-        font-size: 3em;
+        font-size: 48px;
     }
     
     .sub-heading {
-        font-size: 1.5em;
+        font-size: 24px;
     }
 }
 
