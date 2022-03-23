@@ -1,30 +1,32 @@
 #navbar {
     background-color: rgb(1,52,72) !important;
-    padding: 10px 0;
+    padding: 10px 0
 }
 
 #responsive-navbar-nav {
-    background-color: rgb(1,52,72) !important;
+    background-color: rgb(1,52,72) !important
 }
 
 #nlac {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(236,146,15);
+    margin-right: 50px;
+    margin-left: 90px
 }
 
 #alliance-logo {
-    height: 65px;
+    height: 75px;
     padding-right: 10px;
 }
 
 .navlink {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: whitesmoke;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .navlink-drop {
@@ -41,79 +43,37 @@
     font-weight: bold;
     color: whitesmoke !important;
     background-color: rgb(1,52,72) !important;
-    padding: 0.5rem 2.5rem !important;
+    padding: 10px 15px !important;
 }
 
 a :hover {
     color: rgb(236,146,15) !important;
 }
 
-/* 3/4 Page Viewport */
-@media only screen and (max-width: 1500px) {
+/* Desktops, large screens Viewport */
+@media only screen and (max-width: 1200px) {
     #nlac {
-        font-size: x-large;
-        margin-right: 7%;
-    }
-
-    .me-auto {
-        width: 40em;
-    }
-
-    .navlink {
-        margin: 0 0em;
+        margin-left: 0px;
     }
 }
 
-/* 1/2 Page Viewport */
-@media only screen and (max-width: 1100px) {
-    #nlac {
-        font-size: x-large;
-        margin-right: 4%;
-    }
-
-    .me-auto {
-        width: 35em;
-    }
-
-    .navlink {
-        margin: 0 1em;
-    }
-
+/* Small screens, laptops Viewport */
+@media only screen and (max-width: 1024px) {
     .navlink-drop {
-        margin: 0 1em;
+        left: 6px;
     }
 }
 
 /* iPad Viewport */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
     #nlac {
-        font-size: 1.5em;
-    }
-
-    .navlink-drop {
-        margin: 0 1em;
+        margin-right: 0px;
     }
 }
 
 /* Mobile Viewport */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     #nlac {
-        font-size: 1.2em;
-        padding-right: 0 !important;
-        padding-left: 0.2em;
-    }
-
-    #alliance-logo {
-        height: 3em;
-    }
-
-    .navlink {
-        font-size: large;
-    }
-
-    .navlink-drop {
-        font-size: 1.2em;
-        bottom: 0.18em;
-        right: 0.1em;
+        font-size: 18px;
     }
 }
