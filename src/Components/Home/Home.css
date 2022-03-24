@@ -27,12 +27,8 @@
 .sub-heading {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
     color: aliceblue;
-}
-
-/* Desktops, large screens Viewport */
-@media only screen and (max-width: 1200px) {
 }
 
 /* Small screens, laptops Viewport */
@@ -45,11 +41,11 @@
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     .heading {
-        font-size: 85px;
+        font-size: 80px;
     }
 
     .sub-heading {
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 

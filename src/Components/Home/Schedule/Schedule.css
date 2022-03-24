@@ -9,11 +9,11 @@
     vertical-align: middle;
     line-height: 90px;
     line-height: normal;
-    padding: 160px 16px 0 16px;
+    padding: 160px 8px 0 8px;
 }
 
 #schedule-logo {
-    height: 130px;
+    height: 120px;
     margin-bottom: 16px;
 }
 
@@ -76,16 +76,12 @@
 
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
-    #schedule-bg {
-        height: 990px;
-    }
-
     .schedule-content{
-        padding: 130px 16px 0 16px;
+        padding: 130px 8px 0 8px;
     }
 
     #schedule-logo {
-        height: 120px;
+        height: 110px;
     }
 
     .schedule-heading {
@@ -94,12 +90,20 @@
     }
 
     .schedule-subheading {
-        font-size: 23px;
+        font-size: 20px;
         padding-bottom: 50px;
     }
 
     .schedule-info {
         padding: 0 1em;
+    }
+
+    .schedule-location {
+        padding-right: 20px;
+    }
+    
+    .schedule-time {
+        padding-left: 20px;
     }
 }
 
@@ -110,7 +114,7 @@
     }
 
     .schedule-content{
-        padding: 90px 16px 0 16px;
+        padding: 92px 16px 0 16px;
     }
 
     #schedule-logo {
@@ -138,12 +142,20 @@
         padding-bottom: 20px;
         color: rgb(236,146,15);
     }
+
+    .schedule-location h4 {
+        padding-bottom: 10px;
+    }
     
     .schedule-time {
         width: 300px;
         padding-left: 0 !important;
         padding-top: 20px;
         color: rgb(236,146,15);
+    }
+
+    .schedule-time h4 {
+        padding-bottom: 10px;
     }
 
     #vertical-line {
