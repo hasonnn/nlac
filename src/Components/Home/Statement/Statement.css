@@ -99,13 +99,13 @@
 }
 
 /* iPad Viewport */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
     .statement-info {
-        margin: 50px 50px;
+        margin: 50px 20px;
     }
 
     #horizontal-line {
-        width: 110px;
+        width: 60px;
     }
 
     #statement-logo {
@@ -113,16 +113,16 @@
     }
 
     #horizontal-line-1 {
-        width: 210px;
+        width: 70px;
     }
 
     #horizontal-line-2 {
-        width: 60px;
+        width: 70px;
     }
 }
 
 /* Mobile Viewport */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     #statement-bg {
         height: 750px;
     }

@@ -67,8 +67,8 @@
     height: 55px;
 }
 
-/* 3/4 Page Viewport */
-@media only screen and (max-width: 1500px) {
+/* Desktops, large screens Viewport */
+@media only screen and (max-width: 1200px) {
     #support-bg {
         height: 63em;
     }
@@ -79,8 +79,8 @@
     }
 }
 
-/* 1/2 Page Viewport */
-@media only screen and (max-width: 1100px) {
+/* Small screens, laptops Viewport */
+@media only screen and (max-width: 1024px) {
     #support-bg {
         height: 47em;
     }
@@ -96,7 +96,7 @@
 }
 
 /* iPad Viewport */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
     #support-bg {
         height: 58em;
     }
@@ -109,7 +109,7 @@
 }
 
 /* Mobile Viewport */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     #support-bg {
         height: 67em;
     }
