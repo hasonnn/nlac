@@ -18,7 +18,7 @@
 }
 
 #horizontal-line {
-    width: 528px;
+    width: 300px;
     border-top: thick solid rgb(236,146,15);
 }
 
@@ -30,7 +30,7 @@
 .statement-info {
     font-family: 'Playfair Display', serif;
     height: 300px;
-    margin: 50px 288px;
+    margin: 50px 250px;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
@@ -44,7 +44,7 @@
 }
 
 #horizontal-line-1 {
-    width: 800px;
+    width: 500px;
     border-top: thick solid rgb(236,146,15);
 }
 
@@ -56,26 +56,26 @@
 }
 
 #horizontal-line-2 {
-    width: 320px;
+    width: 160px;
     border-top: thick solid rgb(236,146,15);
 }
 
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
     .statement-info {
-        margin: 50px 200px;
+        margin: 50px 150px;
     }
 
     #horizontal-line {
-        width: 450px;
+        width: 230px;
     }
 
     #horizontal-line-1 {
-        width: 620px;
+        width: 400px;
     }
 
     #horizontal-line-2 {
-        width: 320px;
+        width: 120px;
     }
 }
 
@@ -86,26 +86,26 @@
     }
 
     #horizontal-line {
-        width: 330px;
+        width: 170px;
     }
 
     #horizontal-line-1 {
-        width: 480px;
+        width: 300px;
     }
 
     #horizontal-line-2 {
-        width: 240px;
+        width: 100px;
     }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 850px) {
     .statement-info {
-        margin: 50px 60px;
+        margin: 50px 50px;
     }
 
     #horizontal-line {
-        width: 150px;
+        width: 110px;
     }
 
     #statement-logo {
@@ -113,11 +113,11 @@
     }
 
     #horizontal-line-1 {
-        width: 250px;
+        width: 210px;
     }
 
     #horizontal-line-2 {
-        width: 100px;
+        width: 60px;
     }
 }
 
