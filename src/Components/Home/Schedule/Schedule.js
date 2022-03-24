@@ -14,14 +14,14 @@ const Schedule = () => {
                     <div className="schedule-info">
                         <div className="schedule-location">
                             <h4>Location</h4>
-                            <h2 className="bold ">Memorial Community<br/>Recreation Centre</h2><br/>
-                            <h2 className="bold">123 East 23rd Street,<br/>North Vancouver, BC V7N 2L3</h2>
+                            <h3 className="bold">Memorial Community<br/>Recreation Centre</h3><br/>
+                            <h3 className="bold">123 East 23rd Street,<br/>North Vancouver, <br/>BC V7N 2L3</h3>
                         </div>
                         <div data-aos="fade-up" className="vertical-line"></div>
                         <div className="schedule-time">
                             <h4>Time</h4>
-                            <h2 className="bold">Sunday Service - 10:30am</h2> <br/>
-                            <h2 className="bold"><a href="/ministry/prayer"><u>Prayer Meeting<br/>every Thursday - 7:30pm</u></a></h2>
+                            <h3 className="bold">Sunday Service - 10:30am</h3> <br/>
+                            <h3 className="bold"><a href="/ministry/prayer"><u>Prayer Meeting<br/>every Thursday - 7:30pm</u></a></h3>
                         </div>
                     </div>
                 </div>

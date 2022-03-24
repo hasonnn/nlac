@@ -27,7 +27,7 @@
 .sub-heading {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 45px;
     color: aliceblue;
 }
 
@@ -39,9 +39,6 @@
 @media only screen and (max-width: 1024px) {
     .heading {
         font-size: 108px;
-    }
-    .sub-heading {
-        font-size: 45px;
     }
 }
 
