@@ -1,6 +1,6 @@
 #support-bg {
     background-color: rgb(255,247,242);
-    height: 80em;
+    height: 1280px;
     color: rgb(11,64,58);
 }
 
@@ -14,9 +14,9 @@
     position: relative;
     background-color: white;
     display: block;
-    margin: -34em auto 0 auto;
-    width: 60em;
-    height: 38em;
+    margin: -544px auto 0 auto;
+    width: 960px;
+    height: 608px;
 }
 
 .support-circle {
@@ -25,15 +25,15 @@
     background-color: white;
     display: block;
     margin: 0 auto;
-    width: 11em;
-    height: 11em;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
 }
 
 #support-logo {
     position: relative;
     top: 15px;
-    height: 9em;
+    height: 120px;
     display: block;
     margin: 0 auto;
 }
@@ -46,14 +46,14 @@
 .support-heading {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 4.5em;
-    margin-bottom: 0.5em;
+    font-size: 72px;
+    margin-bottom: 15px;
 }
 
 .support-subheading {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.5em;
-    margin-bottom: 2.5em;
+    font-size: 25px;
+    margin-bottom: 40px;
 }
 
 #donate-button {
@@ -61,28 +61,28 @@
     color: white;
     font-family: 'Merriweather Sans', sans-serif !important;
     font-weight: bold;
-    font-size: 1.3em;
-    padding-top: 0.5em;
+    font-size: 25px;
+    padding-top: 8px;
     width: 175px;
     height: 55px;
 }
 
-/* Desktops, large screens Viewport */
-@media only screen and (max-width: 1200px) {
+/* 3/4 Page Viewport */
+@media only screen and (max-width: 1500px) {
     #support-bg {
-        height: 63em;
+        height: 1000px;
     }
 
     .support-bg-white {
-        width: 55em;
-        margin: -34em auto 0 auto;
+        width: 880px;
+        margin: -544px auto 0 auto;
     }
 }
 
-/* Small screens, laptops Viewport */
-@media only screen and (max-width: 1024px) {
+/* 1/2 Page Viewport */
+@media only screen and (max-width: 1100px) {
     #support-bg {
-        height: 47em;
+        height: 752px;
     }
 
     #support-img {
@@ -90,21 +90,21 @@
     }
 
     .support-bg-white {
-        margin: -34em auto 0 auto;
-        width: 50em;
+        margin: -544px auto 0 auto;
+        width: 750px;
     }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #support-bg {
-        height: 58em;
+        height: 850px;
     }
     
     .support-bg-white {
-        width: 40em;
-        height: 45em;;
-        margin: -20em auto 0 auto;
+        width: 640px;
+        height: 680px;
+        margin: -320px auto 0 auto;
     }
 }
 
