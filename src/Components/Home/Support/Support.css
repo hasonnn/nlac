@@ -98,7 +98,7 @@
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #support-bg {
-        height: 750px;
+        height: 740px;
     }
 
     #support-logo {
@@ -112,9 +112,9 @@
     }
     
     .support-bg-white {
-        width: 550px;
+        width: 420px;
         height: 630px;
-        margin: -420px auto 0 auto;
+        margin: -360px auto 0 auto;
     }
 
     .support-heading {
