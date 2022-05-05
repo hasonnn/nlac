@@ -98,55 +98,73 @@
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #support-bg {
-        height: 850px;
+        height: 750px;
+    }
+
+    #support-logo {
+        height: 110px;
+    }
+
+    .support-circle {
+        top: -75px;
+        width: 140px;
+        height: 140px;
     }
     
     .support-bg-white {
-        width: 640px;
-        height: 680px;
-        margin: -320px auto 0 auto;
+        width: 550px;
+        height: 630px;
+        margin: -420px auto 0 auto;
+    }
+
+    .support-heading {
+        font-size: 65px;
+        margin-bottom: 15px;
+    }
+
+    .support-subheading {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    #donate-button {
+        font-size: 20px;
+        padding-top: 10px;
+        width: 175px;
+        height: 55px;
     }
 }
 
 /* Mobile Viewport */
 @media only screen and (max-width: 480px) {
     #support-bg {
-        height: 67em;
-    }
-
-    .support-circle {
-        position: relative;
-        top: -70px;
-        background-color: white;
-        display: block;
-        margin: 0 auto;
-        width: 8em !important;
-        height: 8em !important;
-    }
-
-    #support-logo {
-        height: 6em;
+        height: 920px;
     }
 
     #support-img {
         display: none;
     }
 
+    #support-logo {
+        height: 96px;
+    }
+
+    .support-circle {
+        top: -75px;
+        width: 130px;
+        height: 130px;
+    }
+
     .support-bg-white {
         top: 380px;
-        margin: -20em auto 0 auto;
-        width: 22em;
-        height: 38em;
+        margin: -340px auto 0 auto;
+        width: 352px;
+        height:  470px;
     }
     
     .support-heading {
-        font-size: 3.1em;
-        margin-bottom: 0.3em;
-    }
-    
-    .support-subheading {
-        font-size: 1.3em;
-        margin-bottom: 2.5em;
+        font-size: 32px;
+        margin-bottom: 15px;
     }
 }
 
