@@ -24,7 +24,7 @@
 
 .about-VVP {
     display: inline-flex;
-    margin: 0 5% 96px 5%;
+    margin: 60px 5% 96px 5%;
 }
 
 .about-item {
@@ -60,33 +60,29 @@
 /* Desktops, large screens Viewport */
 @media only screen and (max-width: 1200px) {
     #about-bg {
-        height: 275px;
+        height: 3300px;
     }
 
     .about-content{
-        padding: 7em 1em 0 1em;
-    }
-
-    .about-heading {
-        font-size: 4.5em;
-        padding-bottom: 0.5em;
+        padding: 120px 24px 0 24px;
     }
 
     .about-VVP {
         display: block;
-        justify-content: center;
-        width: 90%;
-        margin: 0 auto 6em auto;
+        margin: 0 20%
+    }
+
+    .about-item {
+        width: 100%;
+        margin-bottom: 50px;
     }
 
     .about-subheading {
-        width: 100%;
-        font-size: 2.5em;
-        margin-bottom: 1em;
+        margin-bottom: 16px;
     }
 
     .nlac-story {
-        margin: 0 3em;
+        margin: 0 5%;
     }
 }
 
