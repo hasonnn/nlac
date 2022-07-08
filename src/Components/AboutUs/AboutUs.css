@@ -100,14 +100,14 @@
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #about-bg {
-        height: 4500px;
+        height: 5000px;
     }
 }
 
 /* Mobile Viewport */
 @media only screen and (max-width: 480px) {
     #about-bg {
-        height: 6000px;
+        height: 6200px;
     }
 
     .about-content{
