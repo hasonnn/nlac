@@ -100,30 +100,31 @@
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #about-bg {
-        height: 4400px;
+        height: 4500px;
     }
 }
 
 /* Mobile Viewport */
 @media only screen and (max-width: 480px) {
     #about-bg {
-        height: 425em;
+        height: 6000px;
     }
 
     .about-content{
-        padding: 5em 1em 0 1em;
+        padding: 80px 2% 0 2%;
     }
 
     #about-logo {
-        height: 6em;
+        height: 96px;
     }
     
     .about-heading {
-        font-size: 3.2em;
+        font-size: 44px;
+        margin-bottom: 25px;
     }
 
-    .nlac-story {
-        margin: 0 0.5em;
+    .about-VVP {
+        margin: 0 2%
     }
 
     .about-subheading {

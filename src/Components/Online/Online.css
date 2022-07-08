@@ -57,7 +57,7 @@ p a:hover {
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #online-bg {
-        height: 600px
+        height: 600px;
     }
 
     .online-content{
@@ -65,7 +65,7 @@ p a:hover {
     }
 
     #online-logo {
-        height: 96px
+        height: 96px;
     }
     
     .online-heading {
