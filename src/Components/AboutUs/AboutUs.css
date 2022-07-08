@@ -89,27 +89,18 @@
 /* Small screens, laptops Viewport */
 @media only screen and (max-width: 1024px) {
     #about-bg {
-        height: 2750px;
+        height: 4000px;
     }
 
     .nlac-story {
-        margin: 0 2em;
+        margin: 0 2%;
     }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #about-bg {
-        height: 283em;
-    }
-
-    .nlac-story {
-        margin: 0 0.5em;
-    }
-
-    .about-subheading {
-        margin-top: 1em;
-        margin-bottom: 0.5em;
+        height: 4400px;
     }
 }
 
