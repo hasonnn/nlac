@@ -12,6 +12,8 @@ const Footer = () => {
                     <div>
                     <p className="footer-info">Memorial Community Recreation Centre<br/>123 East 23rd Street, North Vancouver, BC V7N 2L3</p>
                     <p className="footer-info">Sunday Service: 10:30am</p>
+                    <br/>
+                    <p><a href="https://www.cmacan.org/report-sexual-misconduct/">Reporting Sexual Misconduct</a></p>
                     </div>
                 </div>
             </div>
