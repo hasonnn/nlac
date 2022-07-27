@@ -30,6 +30,11 @@
     color: rgb(236,146,15);
 } 
 
+.footer-report a:hover {
+    color: rgb(236,146,15) !important;
+}
+  
+
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #footer-bg {
