@@ -38,7 +38,13 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #footer-bg {
+        background-color: rgb(1,52,72);
         height: 240px;
+    }
+
+    #footer-alliance-logo {
+        height: 50px;
+        margin-right: 20px;
     }
 
     .footer-nlac {

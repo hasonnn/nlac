@@ -1,6 +1,6 @@
 #staff-bg {
     background-color: rgb(255,247,242);
-    height: 1375px;
+    height: 1150px;
     color: rgb(11,64,58);
 }
 
@@ -18,13 +18,13 @@
 .staff-heading {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 55px;
     padding-bottom: 16px;
 }
 
 .staff-card {
     display: inline-flex;
-    margin: 60px 5% 96px 5%;
+    margin: 40px 5% 96px 5%;
 }
 
 .staff-individual {
@@ -42,7 +42,7 @@
 
 .staff-subheading {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 37px;
     color: rgb(236,146,15);
@@ -50,13 +50,13 @@
 
 .staff-subinfo {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* Desktops, large screens Viewport */
 @media only screen and (max-width: 1200px) {
     #staff-bg {
-        height: 1600px;
+        height: 1400px;
     }
 
     .staff-card {
@@ -76,14 +76,14 @@
 /* Small screens, laptops Viewport */
 @media only screen and (max-width: 1024px) {
     #staff-bg {
-        height: 1775px;
+        height: 1500px;
     }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #staff-bg {
-        height: 2050px;
+        height: 1700px;
     }
 
     .staff-heading {
@@ -98,28 +98,36 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 480px) {
     #staff-bg {
-        height: 170em;
+        height: 1500px;
     }
 
     .staff-content{
-        padding: 5em 1em 0 1em;
+        padding: 80px 1% 0 1%;
     }
 
     #staff-logo {
-        height: 6em;
+        height: 96px;
+    }
+
+    .staff-card {
+        margin: 40px 1% 96px 1%;
     }
 
     .staff-individual {
-        padding: 1.5em 0.5em 1.5em 0.5em;
+        padding: 20px 5px 5px 5px;
     }
     
     .staff-heading {
-        font-size: 3.2em;
+        font-size: 35px;
     }
 
     .staff-subheading {
         width: auto !important;
-        font-size: 2.25em;
+        font-size: 30px;
+    }
+
+    .staff-subinfo {
+        font-size: 16px;
     }
 }
 
