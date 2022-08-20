@@ -30,8 +30,13 @@
     color: rgb(236,146,15);
 } 
 
+.footer-report{
+    font-size: 12px;
+}
+
 .footer-report a:hover {
     color: goldenrod !important;
+
 }
   
 
