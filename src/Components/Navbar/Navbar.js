@@ -28,7 +28,7 @@ const Navigation = () => {
                                 <NavDropdown.Item className="navlink-dropitem" href="/connect">Connect</NavDropdown.Item>
                                 <NavDropdown.Item className="navlink-dropitem" href="https://www.dropbox.com/sh/ox4hckiogvnclrt/AABMP_fj9WNhdw30m7vu5vH5a?dl=0&fbclid=IwAR3ePPuFHEMhfX1OaFKjoJm_BRphWiAX5vID3Qx3B_F1VWMlLlO_xOh5SEE" target="_blank" rel="noreferrer">Community Board</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link className="navlink" href="/https://www.cmacan.org/report-sexual-misconduct/ ">Report Sexual Misconduct</Nav.Link>
+                            <Nav.Link className="navlink" href="/https://www.cmacan.org/report-sexual-misconduct" target="_blank" rel="noreferrer">Report Sexual Misconduct</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
