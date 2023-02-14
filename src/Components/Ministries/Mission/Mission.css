@@ -99,7 +99,7 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #mission-bg {
-        height: 1700px;
+        height: 1800px;
     }
 
     .mission-content{
