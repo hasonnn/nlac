@@ -22,7 +22,7 @@ const Giving = () => {
                     <h1 className="giving-heading">Tithes & Offerings</h1> 
                     <div className="interac-container">
                         <img data-aos="flip-left" id="interac" src={interac} alt="interac logo" />
-                        <p className="giving-subheading">To support New Life Alliance Church<br/>E-transfer: nlacgiving@yahoo.com<br/>Name: NLACgiving<br/>Note: your name, area of contribution (example: building fund, missions, etc)</p>
+                        <p className="giving-subheading">To support New Life Alliance Church<br/>E-transfer: <b>nlacgiving@yahoo.com</b><br/>Name: <b>NLACgiving</b><br/>Note: your name, area of contribution (example: building fund, missions, etc)</p>
                     </div>
                     <h2>What The Bible Says About Tithing & Giving</h2> 
                     <p className="giving-subheading">That word “tithe” literally means ten percent. After God gave Abraham victory over his enemies, it says that he gave a tenth of everything (Genesis 14:17-20). The tithe was Abraham’s expression of gratitude to and love for God. Similarly, Jacob promised to give a tenth of all his future possessions as his grateful response to God’s divine revelation and blessing (Genesis 28). Furthermore, God attached blessings to our obedience in the area of tithing: “Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this,” says the Lord Almighty, “and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it.” (Malachi 3:10, NIV)</p>

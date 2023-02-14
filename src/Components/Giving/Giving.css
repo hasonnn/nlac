@@ -71,31 +71,31 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #giving-bg {
-        height: 150em;
+        height: 2000px;
     }
 
     .giving-content{
-        padding: 5em 1em 0 1em;
+        padding: 80px 5% 0 5%;
     }
 
     #giving-logo {
-        height: 6em;
+        height: 96px;
     }
     
     .giving-heading {
-        font-size: 2.75em;
+        font-size: 35px;
     }
 
     #interac {
-        height: 7em;
-        margin-right: 1em;
+        height: 110px;
+        margin-right: 15px;
     }
 
     .interac-container {
-        margin-bottom: 4em;
+        margin-bottom: 20px;
     }
     
     .giving-subheading {
-        font-size: 1.25em;
+        font-size: 18px;
     }
 }
