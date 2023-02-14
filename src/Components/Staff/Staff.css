@@ -69,21 +69,19 @@
         width: 100% !important;
         margin: 30px;
     }
-
-
 }
 
 /* Small screens, laptops Viewport */
 @media only screen and (max-width: 1024px) {
     #staff-bg {
-        height: 1600px;
+        height: 1680px;
     }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #staff-bg {
-        height: 1900px;
+        height: 2000px;
     }
 
     .staff-heading {
