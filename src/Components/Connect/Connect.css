@@ -97,6 +97,18 @@
     .connect-container {
         padding: 0 0 !important;
     }
+
+    .connect-item1 {
+        padding: 80px 1%;
+    }
+    
+    .connect-item2 {
+        padding: 80px 1%;
+    }
+    
+    .connect-item3 {
+        padding: 80px 1%;
+    }
 }
 
 /* Mobile Viewport */
