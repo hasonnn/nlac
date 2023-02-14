@@ -8,7 +8,7 @@ const ProjectHope = () => {
         <>
             <div id="ph-bg">
                 <div className="ph-content">
-                    <h1 className="ph-heading">Project H.O.P.E. PH</h1> 
+                    <h1 className="ph-heading">Project H.O.P.E.</h1> 
                     <div className="ph-group">
                         <h2 className="ph-subheading">Helping Other People Excel</h2>
                         <div className="ph-goal">
