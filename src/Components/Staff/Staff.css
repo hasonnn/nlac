@@ -37,12 +37,12 @@
 .staff-title {
     font-family: 'Merriweather Sans', sans-serif;
     color: rgb(236,146,15);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .staff-subheading {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 37px;
     color: rgb(236,146,15);
@@ -50,7 +50,7 @@
 
 .staff-subinfo {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Desktops, large screens Viewport */
