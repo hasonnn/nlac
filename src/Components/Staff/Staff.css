@@ -1,6 +1,6 @@
 #staff-bg {
     background-color: rgb(255,247,242);
-    height: 1150px;
+    height: 1250px;
     color: rgb(11,64,58);
 }
 
@@ -56,7 +56,7 @@
 /* Desktops, large screens Viewport */
 @media only screen and (max-width: 1200px) {
     #staff-bg {
-        height: 1400px;
+        height: 1500px;
     }
 
     .staff-card {
@@ -76,14 +76,14 @@
 /* Small screens, laptops Viewport */
 @media only screen and (max-width: 1024px) {
     #staff-bg {
-        height: 1500px;
+        height: 1600px;
     }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 768px) {
     #staff-bg {
-        height: 1800px;
+        height: 1900px;
     }
 
     .staff-heading {
