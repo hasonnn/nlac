@@ -100,7 +100,7 @@
 
     .connect-item1 {
         width: 400px;
-        padding: 80px 100px;
+        padding: 80px 1%;
     }
     
     .connect-item2 {
@@ -117,23 +117,23 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #connect-bg {
-        height: 85em;
+        height: 1400px;
     }
 
     .connect-content{
-        padding: 5em 1em 0 1em;
+        padding: 80px 1% 0 1%;
     }
 
     #connect-logo {
-        height: 6em;
+        height: 96px;
     }
     
     .connect-heading {
-        font-size: 2.75em;
+        font-size: 35px;
     }
 
     .connect-subheading {
-        font-size: 1.5em;
+        font-size: 30px;
     }
 
     .connect-container {
@@ -141,28 +141,28 @@
     }
 
     .connect-item1 {
-        width: 20em;
-        padding: 5em 1em;
+        width: 300px;
+        padding: 80px 1%;
     }
     
     .connect-item2 {
-        width: 20em;
-        padding: 5em 1em;
+        width: 300px;
+        padding: 80px 1%;
     }
     
     .connect-item3 {
-        width: 20em;
-        padding: 5em 1em;
+        width: 300px;
+        padding: 80px 1%;
     }
 
     #connect-icon {
-        height: 4em;
-        margin-bottom: 3em;
+        height: 64px;
+        margin-bottom: 48px;
     }
     
     .connect-subinfo {
         font-family: 'Merriweather Sans', sans-serif;
-        font-size: large;
+        font-size: 18px;
         font-weight: 600;
     }
 }
