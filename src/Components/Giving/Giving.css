@@ -1,6 +1,6 @@
 #giving-bg {
     background-color: rgb(255,247,242);
-    height: 1680px;
+    height: 1200px;
     color: rgb(11,64,58);
 }
 
@@ -44,27 +44,27 @@
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
     #giving-bg {
-        height: 2000px;
+        height: 1200px;
     }
 }
 
 /* 1/2 Page Viewport */
 @media only screen and (max-width: 1100px) {
     #giving-bg {
-        height: 2560px;
+        height: 1350px;
     }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 820px) {
     #giving-bg {
-        height: 2400px;
+        height: 1450px;
     }
 
     .giving-content{
         text-align: center;
         vertical-align: middle;
-        padding: 9em 5% 0 5%;
+        padding: 144px 5% 0 5%;
     }
 }
 
