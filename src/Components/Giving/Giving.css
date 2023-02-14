@@ -51,14 +51,14 @@
 /* 1/2 Page Viewport */
 @media only screen and (max-width: 1100px) {
     #giving-bg {
-        height: 1350px;
+        height: 1400px;
     }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 820px) {
     #giving-bg {
-        height: 1450px;
+        height: 1650px;
     }
 
     .giving-content{
