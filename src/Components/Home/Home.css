@@ -66,6 +66,7 @@
 
     .heading {
         font-size: 40px;
+        text-shadow: 3px 3px 0px rgba(87, 90, 94, 0.5);
     }
     
     .sub-heading {
