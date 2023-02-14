@@ -1,6 +1,6 @@
 #lg-bg {
     background-color: rgb(255,247,242);
-    height: 168em;
+    height: 2000px;
     color: rgb(11,64,58);
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -8,30 +8,30 @@
 .lg-content{
     text-align: center;
     vertical-align: middle;
-    padding: 9em 1em 0 1em;
+    padding: 120px 16px 0 16px;
 }
 
 .lg-heading {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 5em;
-    padding-bottom: 1em;
+    font-size: 65px;
+    padding-bottom: 50px;
     color: rgb(11,64,58)
 }
 
 .lg-group {
     padding: 0 20%;
-    margin-bottom: 8em;
+    margin-bottom: 128px;
 }
 
 .lg-subheading {
-    font-size: 3.5em;
-    margin-bottom: 1.25em;
+    font-size: 45px;
+    margin-bottom: 50px;
 } 
 
 .lg-CCC {
     font-weight: bold;
-    margin-bottom: 1.5em;
+    margin-bottom: 80px;
 }
 
 .lg-hc {
@@ -39,45 +39,40 @@
 }
 
 .lg-hc h4 {
-    font-size: 1.5em;
+    font-size: 25px;
     font-weight: 600;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 .lg-hc h3 {
-    font-size: 1.75em;
+    font-size: 25px;
 }
 
 .lg-hc p {
-    font-size: 1.5em;
-    margin-bottom: 3em;
+    font-size: 18px;
+    margin-bottom: 50px;
 }
 
 .lg-verse {
-    font-size: 1.5em;
-    margin-bottom: 3em;
+    font-size: 18px;
+    margin-bottom: 50px;
     font-style: italic;
 }
 
 .lg-hc ul li {
-    font-size: 1.5em;
-}
-
-.lg-info {
-    font-size: 1.5em;
-    margin-bottom: 1em;
+    font-size: 18px;
 }
 
 .lg-contact {
-    font-size: 25px;
-    margin-bottom: 1em;
-    line-height: 1.25em;
+    font-size: 20px;
+    margin-bottom: 16px;
+    line-height: 16px;
 }
 
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
     #lg-bg {
-        height: 175em;
+        
     }
 
     .lg-group {
@@ -88,7 +83,7 @@
 /* 1/2 Page Viewport */
 @media only screen and (max-width: 1100px) {
     #lg-bg {
-        height: 190em;
+
     }
 
     .lg-group {
@@ -99,11 +94,11 @@
 /* iPad Viewport */
 @media only screen and (max-width: 820px) {
     #lg-bg {
-        height: 200em;
+        height: 2500px;
     }
 
     .lg-CCC {
-        font-size: 1.75em;
+        font-size: 20px;
         font-weight: 500;
     }
 
@@ -113,22 +108,22 @@
 
     .lg-hc p {
         font-size: 1.5em;
-        margin-bottom: 3em;
+        margin-bottom: 50px;
     }
 }
 
 /* Mobile Viewport */
 @media only screen and (max-width: 500px) {
     #lg-bg {
-        height: 215em;
+        height: 2400px;
     }
 
     .lg-content{
-        padding: 5em 1em 0 1em;
+        padding: 80px 16px 0 16px;
     }
     
     .lg-heading {
-        font-size: 2.75em;
+        font-size: 35px;
     }
 
     .lg-group {
@@ -136,29 +131,38 @@
     }
     
     .lg-subheading {
-        font-size: 2em;
+        font-size: 28px;
         font-weight: 500;
     }
     
     .lg-CCC {
-        font-size: 1.25em;
-        margin-bottom: 3em;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .lg-hc h4 {
+        font-size: 18px;
     }
 
     .lg-hc p {
-        font-size: 1.5em;
-        margin-bottom: 3em;
+        font-size: 16px;
+        margin-bottom: 50px;
     }
 
     .lg-hc h3 {
-        font-size: 1.75em;
+        font-size: 20px;
     }
 
     ul li {
-        font-size: 1.4em;
+        font-size: 16px;
+    }
+
+    .lg-hc ul li {
+        font-size: 16px;
     }
 
     .lg-contact {
-        font-size: 20px;
+        font-size: 18px;
+        line-height: 30px;
     }
 }

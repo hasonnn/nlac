@@ -34,9 +34,6 @@ const LifeGroup = () => {
                     <div className="lg-group">
                         <h2 className="lg-subheading">Adult English-Filipino Group</h2>
                         <p className="lg-verse">"But grow in the grace and knowledge of our Lord and Savior Jesus Christ.<br/>To him be glory both now and forever! Amen."<br/>(2 Peter 3:18)</p>
-                        <div className="lg-hc">
-                            <p><b>2021 Goal</b> - Continue and finish "The Purpose Driven Life" by Rick Warren.</p>
-                        </div>
                     </div>
                     <p className="lg-contact">For more information about our NLAC Life Groups or if you'd like to join,</p>
                     <p className="lg-contact">Please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
