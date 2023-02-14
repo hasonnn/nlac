@@ -15,8 +15,8 @@
     background-color: white;
     display: block;
     margin: -544px auto 0 auto;
-    width: 960px;
-    height: 608px;
+    width: 800px;
+    height: 550px;
 }
 
 .support-circle {
@@ -46,13 +46,13 @@
 .support-heading {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 40px;
     margin-bottom: 15px;
 }
 
 .support-subheading {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 40px;
 }
 
@@ -61,7 +61,7 @@
     color: white;
     font-family: 'Merriweather Sans', sans-serif !important;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 12px;
     width: 175px;
     height: 55px;
