@@ -1,29 +1,31 @@
 #connect-bg {
     background-color: whitesmoke;
-    height: 68em;
+    height: 1088px;
     color: rgb(11,64,58);
 }
 
 .connect-content{
     text-align: center;
-    padding: 9em 1em 4em 1em;
+    padding: 120px 24px 0 24px;
 }
 
 #connect-logo {
-    height: 9em;
-    margin-bottom: 1.5em;
+    height: 120px;
+    margin-bottom: 24px;
 }
 
 .connect-heading {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 55px;
+    padding-bottom: 16px;
 }
 
 .connect-subheading {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 2em;
-    margin-bottom: 2.5em;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
     color: lightgray;
 }
 
@@ -31,35 +33,35 @@
     display: inline-flex;
     vertical-align: middle;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 10%;
 }
 
 .connect-item1 {
-    width: 30em;
-    padding: 7em 1em;
+    width: 480px;
+    padding: 112px 16px;
     background-color: lightgray;
 }
 
 .connect-item2 {
-    width: 30em;
-    padding: 7em 1em;
+    width: 480px;
+    padding: 112px 16px;
     background-color: rgb(229,78,76);
 }
 
 .connect-item3 {
-    width: 30em;
-    padding: 7em 1em;
+    width: 480px;
+    padding: 112px 16px;
     background-color: rgb(59,111,152);
 }
 
 #connect-icon {
-    height: 6em;
-    margin-bottom: 3em;
+    height: 96px;
+    margin-bottom: 48px;
 }
 
 .connect-subinfo {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: x-large;
+    font-size: 20px;
 }
 
 .connect-container a {
@@ -69,28 +71,24 @@
 /* 1/2 Page Viewport */
 @media only screen and (max-width: 1100px) {
     #connect-bg {
-        height: 105em;
-    }
-
-    .connect-heading {
-        font-size: 4.5em;
+        height: 1680px;
     }
 
     .connect-container {
         display: inline-block;
-        padding: 0 5em;
+        padding: 0 80px;
     }
 
     .connect-item1 {
-        padding: 5em 1em;
+        padding: 80px 16px;
     }
     
     .connect-item2 {
-        padding: 5em 1em;
+        padding: 80px 16px;
     }
     
     .connect-item3 {
-        padding: 5em 1em;
+        padding: 80px 16px;
     }
 }
 
