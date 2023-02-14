@@ -107,7 +107,7 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 480px) {
     #about-bg {
-        height: 4300px;
+        height: 4400px;
     }
 
     .about-content{
