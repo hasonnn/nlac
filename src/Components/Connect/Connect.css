@@ -99,14 +99,17 @@
     }
 
     .connect-item1 {
-        padding: 80px 1%;
+        width: 450px;
+        padding: 80px 100px;
     }
     
     .connect-item2 {
+        width: 450px;
         padding: 80px 1%;
     }
     
     .connect-item3 {
+        width: 450px;
         padding: 80px 1%;
     }
 }
