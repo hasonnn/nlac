@@ -56,12 +56,12 @@
 /* Mobile Viewport */
 @media only screen and (max-width: 480px) {
     #background{
-        height: 500px;
+        height: 600px;
     }
 
     .welcome {
         padding-top: 0 !important;
-        padding-bottom: 150px;
+        padding-bottom: 200px;
     }
 
     .heading {
