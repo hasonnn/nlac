@@ -30,6 +30,11 @@ const Staff = () => {
                             <h2 className="staff-subheading">Rev. Benjamin Pantoja</h2>
                             <p className="staff-subinfo">He is married to Mitz Pantoja for 28 years and counting. He has two adult children which both serves in ministries at NLAC. He has been inspiring youth, young adults, married couples, and church members at New Life Alliance church since 2012 as the Multi-Generational Pastor. His passion is pursuing a personal godly character that translates to our connection to Christ and the Church community as we courageously face fear, uncertainties and a new normal together.<br/><br/>"To Keep on Keeping on"<br/>"Together, Better, Stronger in the Lord!"</p>
                         </div>
+                        <div className="staff-individual">
+                            <h4 data-aos="fade-right" className="staff-title">Site Administrator</h4>
+                            <h2 className="staff-subheading">Jason Chan</h2>
+                            <p className="staff-subinfo">He is born and raised in Belize, Central America. He immigrated to Canada for his studies and is permanently living in Vancouver, BC.<br/><br/>He started attending NLAC since 2015, attend in a HouseChurch and is a regular active member. He is currently assisting the church, the pastors and congregation in administrative duties.</p>
+                        </div>
                     </div>
                 </div>
             </div>

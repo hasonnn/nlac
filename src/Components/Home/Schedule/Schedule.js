@@ -14,7 +14,8 @@ const Schedule = () => {
                     <div className="schedule-info">
                         <div className="schedule-location">
                             <h4>Location</h4>
-                            <h3 className="bold"><a href="https://www.google.ca/maps/place/Memorial+Community+Recreation+Centre/@49.3299109,-123.0716137,17z/data=!3m1!4b1!4m6!3m5!1s0x548670142c949f21:0xc1793700afd5d4a5!8m2!3d49.3299109!4d-123.069425!16s%2Fg%2F11b6j4dcp1" target="_blank" rel="noopener noreferrer"><u>Click here<br/>for the directions<br/>to Sunday service</u></a></h3>
+                            <h3 className="bold"><a href="https://www.google.ca/maps/place/Memorial+Community+Recreation+Centre/@49.3299109,-123.0716137,17z/data=!3m1!4b1!4m6!3m5!1s0x548670142c949f21:0xc1793700afd5d4a5!8m2!3d49.3299109!4d-123.069425!16s%2Fg%2F11b6j4dcp1" target="_blank" rel="noopener noreferrer"><u>NLAC North Vancouver Campus</u></a></h3><br/>
+                            <h3 className="bold"><u>NLAC Surrey Campus</u></h3><h5>- coming soon</h5>
                         </div>
                         <div data-aos="fade-up" className="vertical-line"></div>
                         <div className="schedule-time">
