@@ -29,6 +29,7 @@
     font-weight: bold;
     font-size: 40px;
     color: aliceblue;
+
 }
 
 /* Desktops, large screens Viewport */
@@ -70,7 +71,7 @@
     }
     
     .sub-heading {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 
