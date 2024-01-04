@@ -1,6 +1,8 @@
 import React from "react";
 import './Mission.css';
 
+import { Button} from 'react-bootstrap';
+
 const Mission = () => {
     return (
         <>
@@ -25,16 +27,41 @@ const Mission = () => {
                     <p className="mission-contact">Please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                     <div className="space"></div>
                     <div className="mission-group">
+                        <div className="iframe-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_q0huPdI8uo?si=mXjXLXRrh87T-Ybx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div className="mission-statement">
+                            <h4><b>2024 Mission Trips</b></h4>
+                            <br/>
+                            <div>
+                                <h4>Team El Salvador</h4>
+                                <p><b>ENVISION EL SALVADOR IS PASSIONATE ABOUT BEING A WITNESS IN SAN SALVADOR AND TO BE A PART OF THE NEW THINGS GOD IS DOING THERE.</b></p>
+                                <p>El Salvador is a small Spanish-speaking country located on the Pacific side of Central America. About one third of the population lives in the vibrant capital city, San Salvador. The country has a hard history of civil war, trafficking, religious nominalism, and gang violence.</p>
+                                <p>The main program is La Fuente, an after school program that seeks to reach out to middle schoolers at risk of violence at a public school in San Salvador. We plug interns in to hands-on ministry, administrative tasks, and discipleship. We partner with local churches for VBS, church partnership evangelism, and more. Check out Envision Wired on Facebook!</p>
+                                <Button id="donate-button" href="https://weareenvision.com/el-salvador/">Learn More About El Salvador</Button>
+                            </div>
+                            <br/>
+                            <div>
+                                <h4>Team Indonesia</h4>
+                                <p><b>ENVISION INDONESIA'S HOPE IS TO SEE MORE INDONESIANS CHOOSE TO FOLLOW JESUS AND THEN SHARE THE GOOD NEWS WITH OTHER INDONESIANS. THEIR GOAL IS TO ENABLE TEAMS, INTERNS, AND RESIDENTS TO BUILD SOLID RELATIONSHIPS WITH NATIONAL THAT ALLOW SPACE FOR SHARING GOD'S LOVE WITH THEM.</b></p>
+                                <p>Indonesia is an archipelago located in South East Asia, just north of Australia. It is made up of 17,500 islands and is the fourth most populous nation in the world with roughly 240 million people. 145 million of these people live on the island of Java, making it the most populous island on the face of the planet! The Envision site is located on this island in the city of Bandung. Population: 5 million people.</p>
+                                <p>God has been at work in Indonesia well before we arrived, and He will continue His work well after our time here is complete. As international workers in Indonesia, we do not start from scratch, but rather join the momentum, the vision, and the history of God’s master plan here. One thing that is important to Envision Indonesia is that everything we do be based on relationships we build with nationals.</p>
+                                <Button id="donate-button" href="/https://weareenvision.com/indonesia/">Learn More About Indonesia</Button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="space"></div>
+                    <div className="mission-group">
                         <div className="mission-statement">
                             <h4><b>Past Mission Trips includes:</b></h4>
                             <ul>
-                                <li>Dominican Republic Group 2015</li>
                                 <li>El Salvador Group 2018</li>
+                                <li>Dominican Republic Group 2015</li>
                             </ul>
                         </div>
                         <div className="iframe-container">
-                        <iframe src="https://www.youtube.com/embed/HMhLqyAvGr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                            <iframe src="https://www.youtube.com/embed/HMhLqyAvGr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
