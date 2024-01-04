@@ -1,6 +1,6 @@
 #mission-bg {
     background-color: rgb(255,247,242);
-    height: 1900px;
+    height: 4100px;
     color: rgb(11,64,58);
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -34,7 +34,7 @@
 }
 
 .mission-verse {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 100px;
     font-style: italic;
 }
@@ -70,11 +70,28 @@
     line-height: 20px;
 }
 
+#info-button {
+    background-color: rgb(236,146,15);
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif !important;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 175px;
+    height: 55px;
+}
+
 /* 3/4 Page Viewport */
 @media only screen and (max-width: 1500px) {
     .mission-group {
         padding: 0 15%;
     }
+
+    #mission-bg {
+        height: 4600px;
+    }
+
 }
 
 /* 1/2 Page Viewport */
@@ -82,12 +99,20 @@
     .mission-group {
         padding: 0 10%;
     }
+
+    #mission-bg {
+        height: 4100px;
+    }
 }
 
 /* iPad Viewport */
 @media only screen and (max-width: 820px) {
     .mission-group {
         padding: 0 5%;
+    }
+
+    #mission-bg {
+        height: 5100px;
     }
 
     .mission-statement p {
