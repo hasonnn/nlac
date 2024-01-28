@@ -23,8 +23,6 @@ const Mission = () => {
                             </ul>
                         </div>
                     </div>
-                    <p className="mission-contact">If you are interested in learning more or joining the ministry,</p>
-                    <p className="mission-contact">Please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                     <div className="space"></div>
                     <div className="mission-group">
                         <h4><b>2024 Mission Trips</b></h4>
@@ -69,6 +67,8 @@ const Mission = () => {
                         <div className="iframe-container">
                             <iframe src="https://www.youtube.com/embed/HMhLqyAvGr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
+                        <p className="mission-contact">If you are interested in learning more or joining the ministry,</p>
+                    <p className="mission-contact">Please connect - <u><a href="mailto:info@newlifealliancechurch.ca">info@newlifealliancechurch.ca</a></u></p>
                     </div>
                 </div>
             </div>
