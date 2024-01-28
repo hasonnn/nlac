@@ -37,17 +37,24 @@ const Mission = () => {
                             <div className="mission-group">
                                 <h3><u>Team El Salvador</u></h3> 
                                 <br/>
-                                <p><b>ENVISION EL SALVADOR IS PASSIONATE ABOUT BEING A WITNESS IN SAN SALVADOR AND TO BE A PART OF THE NEW THINGS GOD IS DOING THERE.</b></p>
-                                <p>El Salvador is a small Spanish-speaking country located on the Pacific side of Central America. About one third of the population lives in the vibrant capital city, San Salvador. The country has a hard history of civil war, trafficking, religious nominalism, and gang violence. <br/><br/>The main program is La Fuente, an after school program that seeks to reach out to middle schoolers at risk of violence at a public school in San Salvador. We plug interns in to hands-on ministry, administrative tasks, and discipleship. We partner with local churches for VBS, church partnership evangelism, and more. Check out Envision Wired on Facebook!</p>
+                                <p><b>Envision El Salvador is passionate about being a witness in San Salvador and to be a part of the new things God is doing there. </b></p>
+                                <p>El Salvador is a country with a history of gang violence and civil war. Up until now, the past still affects the country in many ways. Missionaries going to El Savador will work closely with the local church and partner in various ministries including VBS, leadership development and worship nights. La Fuente is also a large part of the ministry in El Salvador. La Fuente is an after school program that provides tutoring and activities to youth to give them skills that will lead to a better future. Missionaries will provide programs and encourage positive relationships with the local youth.</p>
                                 <Button id="info-button" href="https://weareenvision.com/el-salvador/">Learn More <br/>About El Salvador</Button>
                             </div>
                             <div className="mission-group">
                                 <h3><u>Team Indonesia</u></h3>
                                 <br/>
-                                <p><b>ENVISION INDONESIA'S HOPE IS TO SEE MORE INDONESIANS CHOOSE TO FOLLOW JESUS AND THEN SHARE THE GOOD NEWS WITH OTHER INDONESIANS. THEIR GOAL IS TO ENABLE TEAMS, INTERNS, AND RESIDENTS TO BUILD SOLID RELATIONSHIPS WITH NATIONAL THAT ALLOW SPACE FOR SHARING GOD'S LOVE WITH THEM.</b></p>
-                                <p>Indonesia is an archipelago located in South East Asia, just north of Australia. It is made up of 17,500 islands and is the fourth most populous nation in the world with roughly 240 million people. 145 million of these people live on the island of Java, making it the most populous island on the face of the planet! The Envision site is located on this island in the city of Bandung. Population: 5 million people. <br/><br/>God has been at work in Indonesia well before we arrived, and He will continue His work well after our time here is complete. As international workers in Indonesia, we do not start from scratch, but rather join the momentum, the vision, and the history of God’s master plan here. One thing that is important to Envision Indonesia is that everything we do be based on relationships we build with nationals.</p>
+                                <p><b>Envision Indonesia's hope is to see more Indonesians choose to follow Jesus and then share the good news with other Indonesians. Their goal is to enable teams, interns, and residents to build solid relationships with national that allow space for sharing God's love with them.</b></p>
+                                <p>Indonesia is a beautiful country where many cultures and religions come together as one. Missionaries going to Indonesia will take part in English Village. English Village is an English camp for local Indonesians where they can talk with our missionaries about their lives in Canada and learn more language skills. The missionaries’ main goal in Indonesia is to teach English and spark curiosity about Jesus which will in turn, may encourage the locals to attend church and form a relationship with God. Please join us in praying for the missionaries going to Indonesia. Pray that God would guide them and give them his words to speak to and encourage the locals at English Village.</p>
                                 <Button id="info-button" href="/https://weareenvision.com/indonesia/">Learn More <br/>About Indonesia</Button>
                             </div>
+                            <div className="mission-statement">
+                                <h4><b>Past Mission Trips includes:</b></h4>
+                                <ul>
+                                    <li><b>Pray:</b>Pray that God uses our teams to spread Jesus’ love to those we will be serving. Pray that our teams may be well equipped for ministry and for those that they will be encountering during the trips.</li>
+                                    <li><b>Donate:</b>Make a tax-deductible donation via etransfer to nlacgiving@yahoo.com with note: 2024 Mission Trips and include which team you are supporting. You can also make a special offering on Sunday mornings under “missions” on the offering envelopes.</li>
+                                </ul>
+                        </div>
                         </div>
                     </div>
                     <div className="space"></div>
