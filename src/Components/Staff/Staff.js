@@ -23,7 +23,7 @@ const Staff = () => {
                         <div className="staff-individual">
                             <h4 data-aos="fade-right" className="staff-title">Senior Pastor</h4>
                             <h2 className="staff-subheading">Rev. Cres Casimong</h2>
-                            <p className="staff-subinfo">Cres Casimong has been the lead pastor of New Life Alliance Church since October 2024. He is the National Coordinator of the Conference of Filipino Alliance Ministries (CFAM), a consortium of Filipino Alliance Churches of C&MA Canada. He holds a Bachelor of Arts in Biblical Studies from Ambrose University, a Master of Divinity from Carey Theological College, and a Doctor of Philosophy from Carolina University. Cres currently resides in Surrey, BC with his wife Ninia. Together they have three children and two grandchildren.</p>
+                            <p className="staff-subinfo">Cres Casimong has been the lead pastor of New Life Alliance Church since October 2004. He is the National Coordinator of the Conference of Filipino Alliance Ministries (CFAM), a consortium of Filipino Alliance Churches of C&MA Canada. He holds a Bachelor of Arts in Biblical Studies from Ambrose University, a Master of Divinity from Carey Theological College, and a Doctor of Philosophy from Carolina University. Cres currently resides in Surrey, BC with his wife Ninia. Together they have three children and two grandchildren.</p>
                         </div>
                         <div className="staff-individual">
                             <h4 data-aos="fade-right" className="staff-title">Associate Pastor</h4>
