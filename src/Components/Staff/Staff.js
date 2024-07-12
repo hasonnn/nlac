@@ -28,7 +28,7 @@ const Staff = () => {
                         <div className="staff-individual">
                             <h4 data-aos="fade-right" className="staff-title">Associate Pastor</h4>
                             <h2 className="staff-subheading">Rev. Benjamin Pantoja</h2>
-                            <p className="staff-subinfo">HBen has been inspiring youth, young adults, married couples and all church members as the Multi-Generational pastor at New Life since 2012. He is passionate about courageously facing fear and the uncertainties of life together as a Church community. He believes this can be done by pursuing a personal godly character that translates into helping others with their connection to Christ and the Church community. Ben has been married to Mitz Pantoja for over 30 years and has two children.<br/><br/>"To Keep on Keeping on"<br/>"Together, Better, Stronger in the Lord!"</p>
+                            <p className="staff-subinfo">Ben has been inspiring youth, young adults, married couples and all church members as the Multi-Generational pastor at New Life since 2012. He is passionate about courageously facing fear and the uncertainties of life together as a Church community. He believes this can be done by pursuing a personal godly character that translates into helping others with their connection to Christ and the Church community. Ben has been married to Mitz Pantoja for over 30 years and has two children.<br/><br/>"To Keep on Keeping on"<br/>"Together, Better, Stronger in the Lord!"</p>
                         </div>
                         <div className="staff-individual">
                             <h4 data-aos="fade-right" className="staff-title">Site Administrator</h4>
